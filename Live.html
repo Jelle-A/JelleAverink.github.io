@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>UIUXA</title>
+    <script src="pop-up.js"></script>
+    <link rel="stylesheet" href="mainstylePC.css" />
+
+    <link rel="stylesheet" media="screen and (max-width: 992px)" href="mainstyleTabletPhone.css" />
+</head>
+<!-- start header 
+        -->
+
+<div class="Header">
+
+    <div class="headerLogo">
+        <a href="Home.html">
+            <figure>
+                <img src="LogoCMGT.png" alt="Picture of logo">
+            </figure>
+        </a>
+    </div>
+
+    <div class="headerLogo2">
+        <figure>
+            <img src="profile.png" alt="Picture of logo">
+        </figure>
+    </div>
+
+    <div class="headerText">
+        <p class="TextHeader"></p>
+    </div>
+
+    <!-- navigation bar -->
+    <div class="navigationBar">
+        <ul>
+            <li><a href="Live.html">LIVE LECTURES</a></li>
+            <li><a href="Upcoming.html">UPCOMING LECTURES</a></li>
+            <li><a href="Past.html">PAST LECTURES</a></li>
+        </ul>
+
+    </div>
+</div>
+
+<!-- end of header -->
+<div class="dropdown">
+    <button class="dropbtn">MODULES</button>
+    <div class="dropdown-content">
+        <a href="">YEAR 1</a>
+        <a href="">PERIOD 1</a>
+        <a href="">PERIOD 2</a>
+        <a href="">PERIOD 3</a>
+        <a href="">PERIOD 4</a>
+        <a href="">YEAR 2</a>
+        <a href="Modules.html">PERIOD 1</a>
+        <a href="">PERIOD 2</a>
+        <a href="">PERIOD 3</a>
+        <a href="">PERIOD 4</a>
+    </div>
+</div>
+<!-- big content box -->
+<div class="popup" id="popup-1">
+    <div class="overlay"></div>
+    <div class="content">
+        <div class="close-btn" onclick="togglePopup()">&times;</div>
+        <h1>LIVE LECTURES</h1>
+        <p>You are about to join
+            <br>A live lecture
+            <br>This lecture has already started
+            <br>so you will be in a live lecture.
+            <br>
+            <br>After this lecture is finieshed you
+            <br>will be able to find it in
+            <br>the PAST LECTURES section.</p>
+        <a href="Congrats.png"><button class="join-btn">JOIN</button>
+        </a>
+    </div>
+</div>
+
+
+<!-- Second content box -->
+
+<div class="content2">
+
+
+    <div class="content2Box">
+
+        <h2 class="content2Title">LIVE LECTURES</h2>
+        <hr class="Line2">
+        <figure class="content2Picture">
+            <img src='UI_UX.png' alt=''>
+            <figcaption class='content2cap'><button class="Btn-pop" onclick="togglePopup()"></button>
+                Went live: 2 min ago</figcaption>
+        </figure>
+
+        <figure class="content2Picture">
+            <img src='Media.png' alt=''>
+            <figcaption class='content2cap'><button class="Btn-pop" onclick="togglePopup()"></button>Went live: 36 min ago</figcaption>
+        </figure>
+    </div>
+</div>
+
+
+
+<div class="Footer">
+    <footer>
+        <p></p>
+    </footer>
+</div></html>
