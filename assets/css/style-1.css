@@ -1,0 +1,282 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  /*height: 800px;*/
+  /*background-color: black;*/
+  font-family: 'Roboto', sans-serif;
+  color: #eaeaea;
+}
+
+nav {
+  z-index: 5;
+  max-width: 100%;
+  position: static;
+  text-align: center;
+  /*margin: 10px;*/
+  color: wheat;
+  padding: 10px;
+  font-size: 50px;
+}
+
+.search-button {
+  position: relative;
+  top: -331px;
+  height: 34px;
+}
+
+.Onder {
+  position: static;
+  text-align: center;
+  color: wheat;
+  padding-bottom: 10px;
+  font-size: 50px;
+}
+
+.vl {
+  border: 8px solid #262727;
+  height: 800px;
+  position: absolute;
+  left: 50.5%;
+  margin-left: -3px;
+  top: 146px;
+}
+
+hr {
+  border-bottom: 10px solid #262727;
+  border-top: 1px solid #262727;
+  width: 100%;
+  position: absolute;
+  left: 0%;
+  margin-left: -3px;
+  top: 10;
+}
+
+hr.CV {
+  border-bottom: 10px solid #262727;
+  border-top: 1px solid #262727;
+  width: 100%;
+  position: absolute;
+  left: 0%;
+  margin-left: -3px;
+  top: 10;
+}
+
+.Input {
+  position: static;
+  text-align: center;
+  color: wheat;
+  margin-right: 50%;
+  padding-bottom: 10px;
+  font-size: 30px;
+}
+
+.Output {
+  position: relative;
+  text-align: center;
+  color: wheat;
+  margin-left: 50%;
+  padding-bottom: 10px;
+  font-size: 30px;
+  top: -118px;
+}
+
+.weatherPic {
+  position: relative;
+  top: 10px;
+  //right: 100px;
+  height: 100px;
+  width: 100px;
+  border-style: hidden;
+}
+
+.city {
+  position: relative;
+  text-align: center;
+  color: wheat;
+  padding-bottom: 10px;
+  font-size: 30px;
+  top: 0px;
+}
+
+.rMovie {
+  position: relative;
+  text-align: center;
+  color: wheat;
+  padding-bottom: 10px;
+  font-size: 50px;
+  top: 50px;
+}
+
+.weather2 {
+  position: relative;
+  text-align: center;
+  color: wheat;
+  padding-bottom: 10px;
+  font-size: 30px;
+  top: 0px;
+}
+
+.Other {
+  position: relative;
+  text-align: center;
+  color: wheat;
+  bottom: 150px;
+  right: -30px;
+  margin-right: 54%;
+  padding-bottom: 10px;
+  font-size: 17px;
+}
+
+.Movies {
+  position: relative;
+  text-align: center;
+  color: wheat;
+  margin-left: 50%;
+  padding-bottom: 10px;
+  font-size: 17px;
+  bottom: 250px;
+}
+
+.btn {
+  border: none;
+  background-color: black;
+  padding: 14px 28px;
+  font-size: 20px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.ams {
+  position: relative;
+  top: -130px;
+  left: 250px;
+  color: wheat;
+}
+
+.ams:hover {
+  background: wheat;
+  color: black;
+}
+
+.ny {
+  position: relative;
+  top: -130px;
+  left: 330px;
+  color: wheat;
+}
+
+.ny:hover {
+  background: wheat;
+  color: black;
+}
+
+.london {
+  position: relative;
+  top: -60px;
+  left: -225px;
+  color: wheat;
+}
+
+.london:hover {
+  background: wheat;
+  color: black;
+}
+
+.tokyo {
+  position: relative;
+  top: -60px;
+  left: -260px;
+  color: wheat;
+}
+
+.tokyo:hover {
+  background: wheat;
+  color: black;
+}
+
+.mos {
+  position: relative;
+  top: 10px;
+  left: -372px;
+  color: wheat;
+}
+
+.mos:hover {
+  background: wheat;
+  color: black;
+}
+
+.paris {
+  position: relative;
+  top: 10px;
+  left: 160px;
+  color: wheat;
+}
+
+.paris:hover {
+  background: wheat;
+  color: black;
+}
+
+.topnav .search-container {
+  position: absolute;
+  bottom: 380px;
+  margin-left: 10%;
+  float: left;
+}
+
+.search-container {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 16px 0px 16px 0px;
+  border-bottom: 3px solid #F5DEB3;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  padding-right: 350px;
+  font-size: 17px;
+  color: wheat;
+}
+
+div.footer3 {
+  text-align: center;
+  position: fixed;
+  top: 675px;
+  width: 100%;
+  height: 80px;
+  background: #262727;
+}
+
+div.footer3 p {
+  color: wheat;
+  text-align: center;
+}
+
+div.footer2 a {
+  text-decoration: none;
+}
+
+div.footer2 a li {
+  list-style: none;
+}
+
+div.footer2 a {
+  position: relative;
+  left: 00px;
+  display: inline-block;
+  margin: 10px 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+div.footer2 a li {
+  color: wheat;
+}
+
+div.footer2 a:hover li {
+  color: #16c6c6;
+}
+
