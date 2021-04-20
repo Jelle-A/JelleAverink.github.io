@@ -400,6 +400,36 @@ div.mywork7 a:hover {
     filter: drop-shadow(-10px 10px 5px #343434);
 }
 
+div.mywork8 img {
+    position: relative;
+    top: -1315px;
+    left: 1000px;
+    max-width: 50%;
+    height: 350px;
+    border-radius: 10%;
+}
+
+div.mywork8 figcaption {
+    position: relative;
+    width: 200px;
+    font-size: 30px;
+    font-weight: 200;
+    color: white;
+    top: -1410px;
+    left: 1020px;
+}
+
+div.mywork8 a:hover {
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+    max-width: 20%;
+    height: auto;
+    border-radius: 10%;
+    filter: drop-shadow(-10px 10px 5px #343434);
+}
+
+
 div.tekstbox {
     text-align: center;
     padding: 10px 20px;
