@@ -704,6 +704,7 @@ h3 {
 
 
 .SkillsDescription {
+    width: 100%;
     margin-top: 5px;
     text-align: center;
     font-family: Lato, sans-serif;
