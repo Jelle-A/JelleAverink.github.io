@@ -710,42 +710,11 @@ h3 {
     font-weight: 1000;
     line-height: 1.0;
     font-size: 30px;
-    padding-right: 100px;
-    padding-left: 100px;
-    display: block;
     position: relative;
-    left: 33%;
-    top: auto;
+    bottom: -400px;
 
 }
 
-.SkillsLeft {
-
-    margin: 0 auto;
-    padding: 0px;
-    line-height: 120%;
-    /* float:left; */
-    width: 560px;
-
-    text-align: center;
-    position: relative;
-    bottom: 2%;
-
-
-}
-
-.SkillsRight {
-
-    padding: 0px;
-    line-height: 120%;
-    /* float:right; */
-    width: 560px;
-
-    text-align: center;
-    position: relative;
-    bottom: 2%;
-
-}
 
 /* Content Contact thingies */
 .Contact {
