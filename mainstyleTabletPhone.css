@@ -704,14 +704,14 @@ h3 {
 
 
 .SkillsDescription {
-    width: 124%;
+    width: 100%;
     margin-top: 5px;
     text-align: center;
     font-family: Lato, sans-serif;
     font-weight: 1000;
     line-height: 1.0;
     font-size: 30px;
-    position: relative;
+    position: inherit;
     bottom: -400px;
 
 }
