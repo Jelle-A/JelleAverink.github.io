@@ -680,13 +680,10 @@ h3 {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+    overflow: hidden;
 
 }
 
-.SkillsBox {
-    height: 500px;
-    width: 100%;
-}
 
 .SkillsTitle {
     margin-top: 0;
@@ -701,7 +698,12 @@ h3 {
     top: -4%;
 }
 
-
+.content7box {
+    padding-right: 0px;
+    float: left;
+    height: 800px;
+    width: 100%;
+}
 
 .SkillsDescription {
     margin-top: 5px;
@@ -710,17 +712,18 @@ h3 {
     font-weight: 1000;
     line-height: 1.0;
     font-size: 20px;
-    padding-right: 00px;
+    padding-right: 100px;
     padding-left: 100px;
     display: block;
     position: relative;
     top: 500px;
+    left: 30%;
 }
 
 
 /* Content Contact thingies */
 .Contact {
-    height: 2 00px;
+    height: 200px;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
