@@ -700,8 +700,8 @@ h3 {
 
 .content7box {
     padding-right: 0px;
-    float: left;
-    height: 800px;
+    float: right;
+    height: 500px;
     width: 100%;
 }
 
@@ -716,8 +716,7 @@ h3 {
     padding-left: 100px;
     display: block;
     position: relative;
-    top: 200px;
-    left: 60%;
+    top: 300px;
 }
 
 
