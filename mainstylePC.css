@@ -801,7 +801,7 @@ h3 {
 
 /* Content Skills thingies */
 .Skills {
-    height: 300px;
+    height: 800px;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
@@ -823,8 +823,6 @@ h3 {
     font-style: normal;
     letter-spacing: 3px;
     text-align: right;
-    position: relative;
-    top: 25%;
 }
 
 
@@ -851,7 +849,7 @@ h3 {
     display: inline-block;
     text-align: justify;
     position: relative;
-    bottom: 75%;
+    bottom: 55%;
 
 
 }
@@ -865,7 +863,7 @@ h3 {
     display: inline-block;
     text-align: justify;
     position: relative;
-    bottom: 75%;
+    bottom: 55%;
 
 }
 
