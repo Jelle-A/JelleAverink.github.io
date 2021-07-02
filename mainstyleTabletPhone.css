@@ -1,0 +1,786 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@900&family=Montserrat:wght@800&display=swap');
+
+@font-face {
+    font-family: 'plexus_sansbold';
+    src: url('plexussans-bold-webfont.woff2') format('woff2'),
+        url('plexussans-bold-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'corsa_regular';
+    src: url('typedepot_-_corsa_grotesk_regular-webfont.woff2') format('woff2'),
+        url('typedepot_-_corsa_grotesk_regular-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'corsa_groteskthin';
+    src: url('typedepot_-_corsa_grotesk_thin-webfont.woff2') format('woff2'),
+        url('typedepot_-_corsa_grotesk_thin-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'valencia';
+    src: url('valencia-webfont.woff2') format('woff2'),
+        url('valencia-webfont.woff') format('woff');
+}
+
+.Header {}
+
+
+/* Title on top of page */
+
+.TitleBox {
+    width: 100%;
+    height: 650px;
+}
+
+.pageTitle {
+    font-family: valencia, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: black;
+    text-align: center;
+    font-size: 60px;
+    height: 200px;
+    position: relative;
+    top: 20%;
+}
+
+.TitleDescription {
+
+    font-family: corsa_regular, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    width 50%;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    top: -80px
+}
+
+/* General things */
+h2 {
+    color: #e4e4e4;
+    font-size: 120px;
+}
+
+/* Home Page */
+body {
+    background-color: white;
+    position: inherit;
+}
+
+/* Content 1 thingies */
+.aboutMe {
+    height: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+
+}
+
+.aboutMeBox {
+    padding-right: 25px;
+    float: right;
+    height: 250px;
+    width: 100%;
+}
+
+.aboutMeTitle {
+    font-family: Montserrat, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: 3px;
+    margin-top: 0px;
+
+}
+
+.aboutMeDescription {
+    text-align: left;
+    font-family: Lato, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 1.3;
+    font-size: 25px;
+    padding-left: 150px;
+    padding-right: 00px;
+    position: relative;
+    bottom: 31%
+}
+
+/* Content 2 thingies */
+
+
+.content2Picture {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 100%;
+
+
+}
+
+.content2Picture img {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    width: 50%;
+
+}
+
+.content2 {
+    height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.content2Box {
+    padding-right: 0px;
+    float: right;
+    height: 500px;
+    width: 100%;
+}
+
+h3 {
+    color: black;
+    font-size: 60px;
+}
+
+.summaryText {
+    margin-top: 5px;
+    text-align: center;
+    font-family: Lato, sans-serif;
+    font-weight: 1000;
+    line-height: 1.0;
+    font-size: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+    display: block;
+    position: relative;
+    top: auto;
+
+}
+
+.content2Title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Montserrat, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    display: block;
+    position: relative;
+    top: auto;
+
+}
+
+.content2Description {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: corsa_groteskthin, sans-serif;
+    font-weight: 100;
+    text-align: center;
+    font-size: 25px;
+    display: block;
+    position: relative;
+    top: auto;
+
+}
+
+.Github {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: auto;
+    position: relative;
+    top: 0%;
+    left: 40%;
+}
+
+.Github img {
+    height: 35px;
+    width: auto;
+}
+
+.Download {
+    margin: 0;
+    padding: 0;
+    float: right;
+    height: auto;
+    width: auto;
+    position: relative;
+    top: -1.9%;
+}
+
+.Download img {
+    height: 60px;
+    width: auto;
+}
+
+/* Content 3 thingies */
+
+.content3Picture {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 100%;
+
+
+}
+
+.content3Picture img {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    width: 50%;
+
+}
+
+.content3 {
+    height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.content3Box {
+    padding-right: 0px;
+    float: right;
+    height: 500px;
+    width: 100%;
+}
+
+h3 {
+    color: black;
+    font-size: 60px;
+}
+
+.summaryText {
+    margin-top: 5px;
+    text-align: center;
+    font-family: Lato, sans-serif;
+    font-weight: 1000;
+    line-height: 1.0;
+    font-size: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+    display: block;
+    position: relative;
+    top: auto;
+
+}
+
+.content3Title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Montserrat, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    display: block;
+    position: relative;
+    top: auto;
+
+}
+
+.content3Description {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: corsa_groteskthin, sans-serif;
+    font-weight: 100;
+    text-align: center;
+    font-size: 25px;
+    display: block;
+    position: relative;
+    top: auto;
+
+}
+
+.Github {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: auto;
+    position: relative;
+    top: 0%;
+    left: 40%;
+}
+
+.Github img {
+    height: 35px;
+    width: auto;
+}
+
+.Download {
+    margin: 0;
+    padding: 0;
+    float: right;
+    height: auto;
+    width: auto;
+    position: relative;
+    top: -1.9%;
+}
+
+.Download img {
+    height: 60px;
+    width: auto;
+}
+
+
+/* Content 4 thingies */
+
+.content4Picture {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 100%;
+
+
+}
+
+.content4Picture img {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    width: 50%;
+
+}
+
+.content4 {
+    height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.content4Box {
+    padding-right: 0px;
+    float: right;
+    height: 500px;
+    width: 100%;
+}
+
+h3 {
+    color: black;
+    font-size: 60px;
+}
+
+.summaryText {
+    margin-top: 5px;
+    text-align: center;
+    font-family: Lato, sans-serif;
+    font-weight: 1000;
+    line-height: 1.0;
+    font-size: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+    display: block;
+    position: relative;
+    top: auto;
+
+}
+
+.content4Title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Montserrat, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    display: block;
+    position: relative;
+    top: auto;
+
+}
+
+.content4Description {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: corsa_groteskthin, sans-serif;
+    font-weight: 100;
+    text-align: center;
+    font-size: 25px;
+    display: block;
+    position: relative;
+    top: auto;
+
+}
+
+.Github {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: auto;
+    position: relative;
+    top: 0%;
+    left: 40%;
+}
+
+.Github img {
+    height: 35px;
+    width: auto;
+}
+
+.Download {
+    margin: 0;
+    padding: 0;
+    float: right;
+    height: auto;
+    width: auto;
+    position: relative;
+    top: -1.9%;
+}
+
+.Download img {
+    height: 60px;
+    width: auto;
+}
+
+/* Content 5 thingies */
+
+.content5Picture {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 100%;
+
+
+}
+
+.content5Picture img {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    width: 50%;
+
+}
+
+.content5 {
+    height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.content5Box {
+    padding-right: 0px;
+    float: right;
+    height: 500px;
+    width: 100%;
+}
+
+h3 {
+    color: black;
+    font-size: 60px;
+}
+
+.summaryText {
+    margin-top: 5px;
+    text-align: center;
+    font-family: Lato, sans-serif;
+    font-weight: 1000;
+    line-height: 1.0;
+    font-size: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+    display: block;
+    position: relative;
+    top: auto;
+
+}
+
+.content5Title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Montserrat, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    display: block;
+    position: relative;
+    top: auto;
+
+}
+
+.content5Description {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: corsa_groteskthin, sans-serif;
+    font-weight: 100;
+    text-align: center;
+    font-size: 25px;
+    display: block;
+    position: relative;
+    top: auto;
+
+}
+
+.Github {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: auto;
+    position: relative;
+    top: 0%;
+    left: 40%;
+}
+
+.Github img {
+    height: 35px;
+    width: auto;
+}
+
+.Download {
+    margin: 0;
+    padding: 0;
+    float: right;
+    height: auto;
+    width: auto;
+    position: relative;
+    top: -1.9%;
+}
+
+.Download img {
+    height: 60px;
+    width: auto;
+}
+
+/* Content 6 thingies */
+
+.content6Picture {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 100%;
+
+
+}
+
+.content6Picture img {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    width: 50%;
+
+}
+
+.content6 {
+    height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.content6Box {
+    padding-right: 0px;
+    float: right;
+    height: 500px;
+    width: 100%;
+}
+
+h3 {
+    color: black;
+    font-size: 60px;
+}
+
+.summaryText {
+    margin-top: 5px;
+    text-align: center;
+    font-family: Lato, sans-serif;
+    font-weight: 1000;
+    line-height: 1.0;
+    font-size: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+    display: block;
+    position: relative;
+    top: auto;
+
+}
+
+.content6Title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Montserrat, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    display: block;
+    position: relative;
+    top: auto;
+
+}
+
+.content6Description {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: corsa_groteskthin, sans-serif;
+    font-weight: 100;
+    text-align: center;
+    font-size: 25px;
+    display: block;
+    position: relative;
+    top: auto;
+
+}
+
+.Github {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: auto;
+    position: relative;
+    top: 0%;
+    left: 40%;
+}
+
+.Github img {
+    height: 35px;
+    width: auto;
+}
+
+.Download {
+    margin: 0;
+    padding: 0;
+    float: right;
+    height: auto;
+    width: auto;
+    position: relative;
+    top: -1.9%;
+}
+
+.Download img {
+    height: 60px;
+    width: auto;
+}
+
+
+/* Content Skills thingies */
+.Skills {
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+
+}
+
+.SkillsBox {
+    height: 500px;
+    width: 100%;
+}
+
+.SkillsTitle {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 50px;
+    font-family: Montserrat, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: 3px;
+    text-align: center;
+    position: relative;
+    top: -4%;
+}
+
+
+
+.SkillsDescription {
+    margin: 7px;
+    padding: 0px;
+    text-align: center;
+    font-family: Lato, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 1.3;
+    font-size: 30px;
+
+}
+
+.SkillsLeft {
+
+    margin: 0 auto;
+    padding: 0px;
+    line-height: 120%;
+    /* float:left; */
+    width: 560px;
+
+    text-align: center;
+    position: relative;
+    bottom: 2%;
+
+
+}
+
+.SkillsRight {
+
+    padding: 0px;
+    line-height: 120%;
+    /* float:right; */
+    width: 560px;
+
+    text-align: center;
+    position: relative;
+    bottom: 2%;
+
+}
+
+/* Content Contact thingies */
+.Contact {
+    height: 2 00px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+
+}
+
+.ContactBox {
+    float: inherit;
+    height: 500px;
+    width: 100%;
+}
+
+.ContactTitle {
+    margin-top: 100px;
+    margin-bottom: 0;
+    font-family: Montserrat, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 90px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.contentContactPicture {
+    float: left;
+    margin-left: 90px;
+    padding-top: -10px;
+    height: 100px;
+    position: relative;
+    top: 50px;
+
+}
+
+.contentContactPicture img {
+    height: 100%;
+    width: auto;
+
+}

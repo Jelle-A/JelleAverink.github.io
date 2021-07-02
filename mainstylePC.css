@@ -1,0 +1,914 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@900&family=Montserrat:wght@800&display=swap');
+
+@font-face {
+    font-family: 'plexus_sansbold';
+    src: url('plexussans-bold-webfont.woff2') format('woff2'),
+        url('plexussans-bold-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'corsa_regular';
+    src: url('typedepot_-_corsa_grotesk_regular-webfont.woff2') format('woff2'),
+        url('typedepot_-_corsa_grotesk_regular-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'corsa_groteskthin';
+    src: url('typedepot_-_corsa_grotesk_thin-webfont.woff2') format('woff2'),
+        url('typedepot_-_corsa_grotesk_thin-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'valencia';
+    src: url('valencia-webfont.woff2') format('woff2'),
+        url('valencia-webfont.woff') format('woff');
+}
+
+/* Title on top of page */
+.TitleBox {
+    width: 100%;
+    height: 700px;
+}
+
+.pageTitle {
+    font-family: valencia, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: black;
+    text-align: center;
+    font-size: 100px;
+    height: 200px;
+    position: relative;
+    top: 15%;
+}
+
+.TitleDescription {
+
+    font-family: corsa_regular, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    width 50%;
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    top: -100px
+}
+
+/* General things */
+h2 {
+    color: #e4e4e4;
+    font-size: 220px;
+}
+
+/* Home Page */
+body {}
+
+/* Content 1 thingies */
+.aboutMe {
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+
+}
+
+.aboutMeBox {
+    padding-right: 25px;
+    float: right;
+    height: 500px;
+    width: 100%;
+}
+
+.aboutMeTitle {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Montserrat, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: 3px;
+    text-align: right;
+}
+
+
+
+.aboutMeDescription {
+    text-align: left;
+    font-family: Lato, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 1.3;
+    font-size: 40px;
+    padding-left: 250px;
+    padding-right: 00px;
+    position: relative;
+    bottom: 5%
+}
+
+
+
+/* Content 2 thingies */
+
+.content2 {
+    height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.content2Box {
+    padding-right: 0px;
+    float: right;
+    height: 200px;
+    width: 100%;
+
+}
+
+.content2proNum {
+
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 100;
+    text-align: left;
+    font-size: 20px;
+    display: block;
+
+
+}
+
+h3 {
+    color: black;
+    font-size: 60px;
+}
+
+.summaryText {
+    margin-top: 5px;
+    text-align: left;
+    font-family: Lato, sans-serif;
+    font-weight: 1000;
+    line-height: 1.0;
+    font-size: 20px;
+    padding-right: 600px;
+    display: block;
+    position: relative;
+    top: 300px;
+
+}
+
+.content2Title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Montserrat, sans-serif;
+    font-weight: bolder;
+    text-align: left;
+    display: block;
+    position: relative;
+    top: 300px;
+
+}
+
+.content2Description {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: corsa_groteskthin, sans-serif;
+    font-weight: 100;
+    text-align: left;
+    font-size: 25px;
+    display: block;
+    position: relative;
+    top: 300px;
+
+}
+
+.content2Picture {
+    float: right;
+    padding-top: -10px;
+    height: 200px;
+    width: 20%;
+
+}
+
+.content2Picture img {
+    height: 100%;
+    width: auto;
+
+}
+
+.content2Video {
+    float: right;
+    padding-top: -10px;
+    height: 200px;
+    width: 10%;
+    position: relative;
+    top: 70%;
+    left: 35%;
+
+}
+
+.content2Video img {
+    height: 100%;
+    width: auto;
+
+}
+
+.Github {
+    margin: 0;
+    padding: 0;
+    float: left;
+    height: auto;
+    width: auto;
+    position: relative;
+    top: 150%;
+}
+
+.Github img {
+    height: 35px;
+    width: auto;
+}
+
+.Download {
+    margin: 0;
+    padding: 0;
+    float: right;
+    height: auto;
+    width: auto;
+    position: relative;
+    top: 145%;
+    right: 37.5%;
+}
+
+.Download img {
+    height: 60px;
+    width: auto;
+}
+
+/* Content 3 thingies */
+
+.content3 {
+    height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.content3Box {
+    padding-right: 0px;
+    float: right;
+    height: 200px;
+    width: 100%;
+
+}
+
+.content3proNum {
+
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 100;
+    text-align: left;
+    font-size: 20px;
+    display: block;
+
+
+}
+
+h3 {
+    color: black;
+    font-size: 60px;
+}
+
+.summaryText {
+    margin-top: 5px;
+    text-align: left;
+    font-family: Lato, sans-serif;
+    font-weight: 1000;
+    line-height: 1.0;
+    font-size: 20px;
+    padding-right: 600px;
+    display: block;
+    position: relative;
+    top: 300px;
+
+}
+
+.content3Title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Montserrat, sans-serif;
+    font-weight: bolder;
+    text-align: left;
+    display: block;
+    position: relative;
+    top: 300px;
+
+}
+
+.content3Description {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: corsa_groteskthin, sans-serif;
+    font-weight: 100;
+    text-align: left;
+    font-size: 25px;
+    display: block;
+    position: relative;
+    top: 300px;
+
+}
+
+.content3Picture {
+    float: right;
+    padding-top: -10px;
+    height: 200px;
+    width: 20%;
+
+}
+
+.content3Picture img {
+    height: 100%;
+    width: auto;
+
+}
+
+.content3Video {
+    float: right;
+    padding-top: -10px;
+    height: 200px;
+    width: 10%;
+    position: relative;
+    top: 70%;
+    left: 35%;
+
+}
+
+.content3Video img {
+    height: 100%;
+    width: auto;
+
+}
+
+.Github {
+    margin: 0;
+    padding: 0;
+    float: left;
+    height: auto;
+    width: auto;
+    position: relative;
+    top: 150%;
+}
+
+.Github img {
+    height: 35px;
+    width: auto;
+}
+
+.Download {
+    margin: 0;
+    padding: 0;
+    float: right;
+    height: auto;
+    width: auto;
+    position: relative;
+    top: 145%;
+    right: 37.5%;
+}
+
+.Download img {
+    height: 60px;
+    width: auto;
+}
+
+/* Content 4 thingies */
+
+.content4 {
+    height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.content4Box {
+    padding-right: 0px;
+    float: right;
+    height: 200px;
+    width: 100%;
+
+}
+
+.content4proNum {
+
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 100;
+    text-align: left;
+    font-size: 20px;
+    display: block;
+
+
+}
+
+h3 {
+    color: black;
+    font-size: 60px;
+}
+
+.summaryText {
+    margin-top: 5px;
+    text-align: left;
+    font-family: Lato, sans-serif;
+    font-weight: 1000;
+    line-height: 1.0;
+    font-size: 20px;
+    padding-right: 600px;
+    display: block;
+    position: relative;
+    top: 300px;
+
+}
+
+.content4Title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Montserrat, sans-serif;
+    font-weight: bolder;
+    text-align: left;
+    display: block;
+    position: relative;
+    top: 300px;
+
+}
+
+.content4Description {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: corsa_groteskthin, sans-serif;
+    font-weight: 100;
+    text-align: left;
+    font-size: 25px;
+    display: block;
+    position: relative;
+    top: 300px;
+
+}
+
+.content4Picture {
+    float: right;
+    padding-top: -10px;
+    height: 200px;
+    width: 20%;
+
+}
+
+.content4Picture img {
+    height: 100%;
+    width: auto;
+
+}
+
+.content4Video {
+    float: right;
+    padding-top: -10px;
+    height: 200px;
+    width: 10%;
+    position: relative;
+    top: 70%;
+    left: 35%;
+
+}
+
+.content4Video img {
+    height: 100%;
+    width: auto;
+
+}
+
+.Github {
+    margin: 0;
+    padding: 0;
+    float: left;
+    height: auto;
+    width: auto;
+    position: relative;
+    top: 150%;
+}
+
+.Github img {
+    height: 35px;
+    width: auto;
+}
+
+.Download {
+    margin: 0;
+    padding: 0;
+    float: right;
+    height: auto;
+    width: auto;
+    position: relative;
+    top: 145%;
+    right: 37.5%;
+}
+
+.Download img {
+    height: 60px;
+    width: auto;
+}
+
+/* Content 5 thingies */
+
+.content5 {
+    height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.content5Box {
+    padding-right: 0px;
+    float: right;
+    height: 200px;
+    width: 100%;
+
+}
+
+.content5proNum {
+
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 100;
+    text-align: left;
+    font-size: 20px;
+    display: block;
+
+
+}
+
+h3 {
+    color: black;
+    font-size: 60px;
+}
+
+.summaryText {
+    margin-top: 5px;
+    text-align: left;
+    font-family: Lato, sans-serif;
+    font-weight: 1000;
+    line-height: 1.0;
+    font-size: 20px;
+    padding-right: 600px;
+    display: block;
+    position: relative;
+    top: 300px;
+
+}
+
+.content5Title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Montserrat, sans-serif;
+    font-weight: bolder;
+    text-align: left;
+    display: block;
+    position: relative;
+    top: 300px;
+
+}
+
+.content5Description {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: corsa_groteskthin, sans-serif;
+    font-weight: 100;
+    text-align: left;
+    font-size: 25px;
+    display: block;
+    position: relative;
+    top: 300px;
+
+}
+
+.content5Picture {
+    float: right;
+    padding-top: -10px;
+    height: 200px;
+    width: 20%;
+
+}
+
+.content5Picture img {
+    height: 100%;
+    width: auto;
+
+}
+
+.content5Video {
+    float: right;
+    padding-top: -10px;
+    height: 200px;
+    width: 10%;
+    position: relative;
+    top: 70%;
+    left: 35%;
+
+}
+
+.content5Video img {
+    height: 100%;
+    width: auto;
+
+}
+
+.Github {
+    margin: 0;
+    padding: 0;
+    float: left;
+    height: auto;
+    width: auto;
+    position: relative;
+    top: 150%;
+}
+
+.Github img {
+    height: 35px;
+    width: auto;
+}
+
+.Download {
+    margin: 0;
+    padding: 0;
+    float: right;
+    height: auto;
+    width: auto;
+    position: relative;
+    top: 145%;
+    right: 37.5%;
+}
+
+.Download img {
+    height: 60px;
+    width: auto;
+}
+
+/* Content 6 thingies */
+
+.content6 {
+    height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.content6Box {
+    padding-right: 0px;
+    float: right;
+    height: 200px;
+    width: 100%;
+
+}
+
+.content6proNum {
+
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 100;
+    text-align: left;
+    font-size: 20px;
+    display: block;
+
+
+}
+
+h3 {
+    color: black;
+    font-size: 60px;
+}
+
+.summaryText {
+    margin-top: 5px;
+    text-align: left;
+    font-family: Lato, sans-serif;
+    font-weight: 1000;
+    line-height: 1.0;
+    font-size: 20px;
+    padding-right: 600px;
+    display: block;
+    position: relative;
+    top: 300px;
+
+}
+
+.content6Title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Montserrat, sans-serif;
+    font-weight: bolder;
+    text-align: left;
+    display: block;
+    position: relative;
+    top: 300px;
+
+}
+
+.content6Description {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: corsa_groteskthin, sans-serif;
+    font-weight: 100;
+    text-align: left;
+    font-size: 25px;
+    display: block;
+    position: relative;
+    top: 300px;
+
+}
+
+.content6Picture {
+    float: right;
+    padding-top: -10px;
+    height: 200px;
+    width: 20%;
+
+}
+
+.content6Picture img {
+    height: 100%;
+    width: auto;
+
+}
+
+.content6Video {
+    float: right;
+    padding-top: -10px;
+    height: 200px;
+    width: 10%;
+    position: relative;
+    top: 70%;
+    left: 35%;
+
+}
+
+.content6Video img {
+    height: 100%;
+    width: auto;
+
+}
+
+.Github {
+    margin: 0;
+    padding: 0;
+    float: left;
+    height: auto;
+    width: auto;
+    position: relative;
+    top: 150%;
+}
+
+.Github img {
+    height: 35px;
+    width: auto;
+}
+
+.Download {
+    margin: 0;
+    padding: 0;
+    float: right;
+    height: auto;
+    width: auto;
+    position: relative;
+    top: 145%;
+    right: 37.5%;
+}
+
+.Download img {
+    height: 60px;
+    width: auto;
+}
+
+/* Content Skills thingies */
+.Skills {
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+
+}
+
+.SkillsBox {
+    padding-right: 25px;
+    float: right;
+    height: 500px;
+    width: 100%;
+}
+
+.SkillsTitle {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Montserrat, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: 3px;
+    text-align: right;
+    position: relative;
+    top: 25%;
+}
+
+
+
+.SkillsDescription {
+    margin: 7px;
+    padding: 0px;
+    text-align: left;
+    font-family: Lato, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 1.3;
+    font-size: 30px;
+    padding-left: 150px;
+}
+
+.SkillsLeft {
+
+    margin: 0 auto;
+    padding: 0px;
+    line-height: 120%;
+    /* float:left; */
+    width: 560px;
+    display: inline-block;
+    text-align: justify;
+    position: relative;
+    bottom: 75%;
+
+
+}
+
+.SkillsRight {
+
+    padding: 0px;
+    line-height: 120%;
+    /* float:right; */
+    width: 560px;
+    display: inline-block;
+    text-align: justify;
+    position: relative;
+    bottom: 75%;
+
+}
+
+/* Content Contact thingies */
+.Contact {
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+
+}
+
+.ContactBox {
+    height: 500px;
+    width: 100%;
+}
+
+
+
+.ContactTitle {
+
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Montserrat, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 180px;
+    letter-spacing: 3px;
+    text-align: left;
+}
+
+.contentContactPicture {
+    float: left;
+    padding-top: -10px;
+    height: 130px;
+    width: 15%;
+    position: relative;
+    bottom: 100px;
+
+}
+
+.contentContactPicture img {
+    height: 100%;
+    width: auto;
+
+}

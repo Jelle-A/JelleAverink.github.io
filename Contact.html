@@ -1,111 +1,107 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Jelle Averink</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/style-1.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
-</head>
-
-<body><nav>
-
-    <nav>
-
-        <ul>
-            <a href="index.html" target="_self">
-                <li>About me</li>
-            </a>
-            <a href="MyWork.html" target="_self">
-                <li>My work</li>
-            </a>
-            <a href="Curriculum%20vitae.html" target="_self">
-                <li> Curriculum vitae</li>
-            </a>
-            <a href="Contact.html" target="_self">
-                <li>Contact</li>
-            </a>
-        </ul>
-    </nav>
-
-    <div class="Back">
-        <img src="assets/img/Pictures/contact2.jpg" alt="" style="width:100%;height:100%;">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<!-- Header / Home-->
+<header class="w3-display-container w3-wide bgimg w3-grayscale-min" id="home">
+    <div class="w3-display-middle w3-text-white w3-center">
+        <h1 class="w3-jumbo">Jane & John</h1>
+        <h2>Are getting married</h2>
+        <h2><b>17.07.2017</b></h2>
     </div>
+</header>
 
-
-    <div class="TekstAnimal5">
-
-        <section>
-            <h3>Contact.</h3>
-            <p>If you want to contact me you can do that here. If you just want to say hi or chat then thats fine. If you have questions about me, my work or anything else, just leave your info here and I will get back to you as soon as possible.</p>
-        </section>
+<!-- Navbar (sticky bottom) -->
+<div class="w3-bottom w3-hide-small">
+    <div class="w3-bar w3-white w3-center w3-padding w3-opacity-min w3-hover-opacity-off">
+        <a href="#home" style="width:25%" class="w3-bar-item w3-button">Home</a>
+        <a href="#us" style="width:25%" class="w3-bar-item w3-button">Jane & John</a>
+        <a href="#wedding" style="width:25%" class="w3-bar-item w3-button">Wedding</a>
+        <a href="#rsvp" style="width:25%" class="w3-bar-item w3-button w3-hover-black">RSVP</a>
     </div>
+</div>
 
+<!-- About / Jane And John -->
+<div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min" id="us">
+    <div class="w3-content">
+        <h1 class="w3-center w3-text-grey"><b>Jane & John</b></h1>
+        <img class="w3-round w3-grayscale-min" src="/Content/ExampleLogo.png" style="width:100%;margin:32px 0">
+        <p><i>You all know us. And we all know you. We are getting married lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
+                occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat.</i>
+        </p><br>
+        <p class="w3-center"><a href="#wedding" class="w3-button w3-black w3-round w3-padding-large w3-large">Wedding Details</a></p>
+    </div>
+</div>
 
+<!-- Background photo -->
+<div class="w3-display-container bgimg2">
+    <div class="w3-display-middle w3-text-white w3-center">
+        <h1 class="w3-jumbo">You Are Invited</h1><br>
+        <h2>Of course..</h2>
+    </div>
+</div>
 
-    <h2>Responsive Contact Section</h2>
-    <p>Resize the browser window to see the effect.</p>
-
-    <div class="container">
-        <div style="text-align:center">
-            <h2>Contact Us</h2>
-            <p>Swing by for a cup of coffee, or leave us a message:</p>
-        </div>
-        <div class="row">
-            <div class="column">
-                <form action="Contact.html">
-                    <label for="fname">First Name</label>
-                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-                    <label for="lname">Last Name</label>
-                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-                    <label for="country">Message</label>
-                    <label for="subject"></label>
-                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
-                    <input type="submit" value="Submit">
-                </form>
+<!-- Wedding information -->
+<div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min w3-center" id="wedding">
+    <div class="w3-content">
+        <h1 class="w3-text-grey"><b>THE WEDDING</b></h1>
+        <img class="w3-round-large w3-grayscale-min" src="/w3images/wedding_location.jpg" style="width:100%;margin:64px 0">
+        <div class="w3-row">
+            <div class="w3-half">
+                <h2>When</h2>
+                <p>Wedding Ceremony - 2:00pm</p>
+                <p>Reception & Dinner - 5:00pm</p>
+            </div>
+            <div class="w3-half">
+                <h2>Where</h2>
+                <p>Some place, an address</p>
+                <p>Some where, some address</p>
             </div>
         </div>
     </div>
+</div>
 
+<!-- RSVP section -->
+<div class="w3-container w3-padding-64 w3-pale-red w3-center w3-wide" id="rsvp">
+    <h1>HOPE YOU CAN MAKE IT!</h1>
+    <p class="w3-large">Kindly Respond By January, 2017</p>
+    <p class="w3-xlarge">
+        <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-round w3-red w3-opacity w3-hover-opacity-off" style="padding:8px 60px">RSVP</button>
+    </p>
+</div>
 
-
-    <div class="footer2">
-        <ul>
-            <a href="https://www.linkedin.com/in/jelle-averink-3564931ab/" target="_self">
-                <li>LinkedIn</li>
-            </a>
-            <a href="https://twitter.com/averink_jelle" target="_self">
-                <li>Twitter</li>
-            </a>
-            <a href="https://dribbble.com/Averink" target="_self">
-                <li>Dribbble</li>
-            </a>
-            <a href="https://www.instagram.com/jelle.averink/" target="_self">
-                <li>Instagram</li>
-            </a>
-            <a href="https://www.facebook.com/janjelle.averink" target="_self">
-                <li>Facebook</li>
-            </a>
-            <a href="mailto:j.averink2001@gmail.com" target="_self">
-                <li>Mail</li>
-            </a>
-        </ul>
-        <p>©2020 Jelle Averink.</p>
+<!-- RSVP modal -->
+<div id="id01" class="w3-modal">
+    <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="padding:32px;max-width:600px">
+        <div class="w3-container w3-white w3-center">
+            <h1 class="w3-wide">CAN YOU COME?</h1>
+            <p>We really hope you can make it.</p>
+            <form>
+                <input class="w3-input w3-border" type="text" placeholder="Name(s)" name="name">
+            </form>
+            <p><i>Sincerely, John & Jane</i></p>
+            <div class="w3-row">
+                <div class="w3-half">
+                    <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-green">Going</button>
+                </div>
+                <div class="w3-half">
+                    <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-red">Can't come</button>
+                </div>
+            </div>
+        </div>
     </div>
+</div>
 
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+    <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+<div class="w3-hide-small" style="margin-bottom:32px"> </div>
 
-</nav>
-
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/App.js"></script>
-    <script src="assets/js/jquery-3.4.1.min.js"></script>
-    <script src="assets/js/lib/p5.speech.js"></script>
-    <script src="assets/js/pop-up.js"></script>
-    <script src="assets/js/sketch.js"></script>
 </body>
 
 </html>
