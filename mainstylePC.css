@@ -205,14 +205,8 @@ h3 {
     height: 200px;
     width: 10%;
     position: relative;
-    top: 70%;
-    left: 35%;
-
-}
-
-.content2Video img {
-    height: 100%;
-    width: auto;
+    top: 142%;
+    left: 37%;
 
 }
 
@@ -382,6 +376,22 @@ h3 {
 
 .Download img {
     height: 60px;
+    width: auto;
+}
+
+.Play {
+    margin: 0;
+    padding: 0;
+    float: right;
+    height: auto;
+    width: auto;
+    position: relative;
+    top: 151%;
+    right: 42.5%;
+}
+
+.Play img {
+    height: 33px;
     width: auto;
 }
 
@@ -657,6 +667,22 @@ h3 {
 }
 
 .Download img {
+    height: 60px;
+    width: auto;
+}
+
+.DownloadFirst {
+    margin: 0;
+    padding: 0;
+    float: right;
+    height: auto;
+    width: auto;
+    position: relative;
+    top: 145%;
+    right: 46%;
+}
+
+.DownloadFirst img {
     height: 60px;
     width: auto;
 }
