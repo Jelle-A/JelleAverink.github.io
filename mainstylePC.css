@@ -146,7 +146,7 @@ h3 {
     font-size: 60px;
 }
 
-.summaryText {
+.summaryText2 {
     margin-top: 5px;
     text-align: left;
     font-family: Lato, sans-serif;
@@ -190,11 +190,28 @@ h3 {
     padding-top: -10px;
     height: 200px;
     width: 20%;
+    position: relative;
+    right: 50px;
+    top: 40%;
 
 }
 
 .content2Picture img {
-    height: 100%;
+    height: 190%;
+    width: auto;
+
+}
+
+.content2ScorePicture {
+    float: right;
+    padding-top: -10px;
+    height: 200px;
+    width: 20%;
+
+}
+
+.content2ScorePicture img {
+    height: 130%;
     width: auto;
 
 }
@@ -205,12 +222,18 @@ h3 {
     height: 200px;
     width: 10%;
     position: relative;
-    top: 142%;
-    left: 37%;
+    top: 102%;
+    left: 30%;
 
 }
 
-.Github {
+.content2Video video {
+    height: 150%;
+    width: auto;
+
+}
+
+.Github2 {
     margin: 0;
     padding: 0;
     float: left;
@@ -220,12 +243,12 @@ h3 {
     top: 150%;
 }
 
-.Github img {
+.Github2 img {
     height: 35px;
     width: auto;
 }
 
-.Download {
+.Download2 {
     margin: 0;
     padding: 0;
     float: right;
@@ -236,7 +259,7 @@ h3 {
     right: 37.5%;
 }
 
-.Download img {
+.Download2 img {
     height: 60px;
     width: auto;
 }
@@ -278,7 +301,7 @@ h3 {
     font-size: 60px;
 }
 
-.summaryText {
+.summaryText3 {
     margin-top: 5px;
     text-align: left;
     font-family: Lato, sans-serif;
@@ -326,24 +349,58 @@ h3 {
 }
 
 .content3Picture img {
-    height: 100%;
+    height: 210%;
     width: auto;
 
 }
 
-.content3Video {
+.content3TabletPicture {
+    float: right;
+    padding-top: -10px;
+    height: 200px;
+    width: 20%;
+    position: relative;
+    right: 100px;
+    top: -50%;
+
+}
+
+.content3TabletPicture img {
+    height: 170%;
+    width: auto;
+
+}
+
+.content3Tablet2 {
+    float: left;
+    padding-top: -10px;
+    height: 200px;
+    width: 10%;
+    position: relative;
+    top: 180%;
+    left: 40%;
+
+}
+
+.content3Tablet2 img {
+    height: 140%;
+    width: auto;
+
+}
+
+.content3Main {
     float: right;
     padding-top: -10px;
     height: 200px;
     width: 10%;
     position: relative;
-    top: 70%;
+    top: 100%;
     left: 35%;
 
 }
 
-.content3Video img {
-    height: 100%;
+.content3Main img {
+    height: 160%;
     width: auto;
 
 }
@@ -432,7 +489,7 @@ h3 {
     font-size: 60px;
 }
 
-.summaryText {
+.summaryText4 {
     margin-top: 5px;
     text-align: left;
     font-family: Lato, sans-serif;
@@ -471,38 +528,41 @@ h3 {
 
 }
 
-.content4Picture {
+.content4In {
     float: right;
     padding-top: -10px;
     height: 200px;
     width: 20%;
+    position: relative;
+    right: 50px;
+    top: 160%;
 
 }
 
-.content4Picture img {
-    height: 100%;
+.content4In img {
+    height: 150%;
     width: auto;
 
 }
 
-.content4Video {
+
+.content4Out {
     float: right;
     padding-top: -10px;
     height: 200px;
     width: 10%;
     position: relative;
-    top: 70%;
-    left: 35%;
+    top: 10%;
 
 }
 
-.content4Video img {
-    height: 100%;
+.content4Out img {
+    height: 150%;
     width: auto;
 
 }
 
-.Github {
+.Github4 {
     margin: 0;
     padding: 0;
     float: left;
@@ -512,7 +572,7 @@ h3 {
     top: 150%;
 }
 
-.Github img {
+.Github4 img {
     height: 35px;
     width: auto;
 }
@@ -570,7 +630,7 @@ h3 {
     font-size: 60px;
 }
 
-.summaryText {
+.summaryText5 {
     margin-top: 5px;
     text-align: left;
     font-family: Lato, sans-serif;
@@ -609,38 +669,42 @@ h3 {
 
 }
 
-.content5Picture {
+.content5In {
     float: right;
     padding-top: -10px;
     height: 200px;
     width: 20%;
+    position: relative;
+    right: 150px;
+    top: 160%;
 
 }
 
-.content5Picture img {
-    height: 100%;
+.content5In img {
+    height: 210%;
     width: auto;
 
 }
 
-.content5Video {
+
+.content5Out {
     float: right;
     padding-top: -10px;
     height: 200px;
     width: 10%;
     position: relative;
-    top: 70%;
-    left: 35%;
+    top: -30%;
+    right: 10%;
 
 }
 
-.content5Video img {
-    height: 100%;
+.content5Out img {
+    height: 190%;
     width: auto;
 
 }
 
-.Github {
+.Github5 {
     margin: 0;
     padding: 0;
     float: left;
@@ -650,7 +714,7 @@ h3 {
     top: 150%;
 }
 
-.Github img {
+.Github5 img {
     height: 35px;
     width: auto;
 }
@@ -679,7 +743,7 @@ h3 {
     width: auto;
     position: relative;
     top: 145%;
-    right: 46%;
+    right: 94%;
 }
 
 .DownloadFirst img {
@@ -724,7 +788,7 @@ h3 {
     font-size: 60px;
 }
 
-.summaryText {
+.summaryText6 {
     margin-top: 5px;
     text-align: left;
     font-family: Lato, sans-serif;
@@ -763,19 +827,6 @@ h3 {
 
 }
 
-.content6Picture {
-    float: right;
-    padding-top: -10px;
-    height: 200px;
-    width: 20%;
-
-}
-
-.content6Picture img {
-    height: 100%;
-    width: auto;
-
-}
 
 .content6Video {
     float: right;
@@ -783,16 +834,16 @@ h3 {
     height: 200px;
     width: 10%;
     position: relative;
-    top: 70%;
-    left: 35%;
+    top: 140%;
+    left: -27%;
 
 }
 
-.content6Video img {
-    height: 100%;
+.content6Video video {
+    height: 170%;
     width: auto;
-
 }
+
 
 .Github {
     margin: 0;
@@ -806,22 +857,6 @@ h3 {
 
 .Github img {
     height: 35px;
-    width: auto;
-}
-
-.Download {
-    margin: 0;
-    padding: 0;
-    float: right;
-    height: auto;
-    width: auto;
-    position: relative;
-    top: 145%;
-    right: 37.5%;
-}
-
-.Download img {
-    height: 60px;
     width: auto;
 }
 

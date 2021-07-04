@@ -114,22 +114,45 @@ body {
 /* Content 2 thingies */
 
 
-.content2Picture {
+.content2Video {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     height: 200px;
     width: 100%;
-
+    position: relative;
+    top: -32%;
+    left: auto;
 
 }
 
-.content2Picture img {
+.content2Video video {
+    height: 120%;
+    width: auto;
+
+}
+
+.content2ScorePicture {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    height: 200px;
+    width: 100%;
+    position: relative;
+    top: auto;
+
+}
+
+.content2ScorePicture img {
     height: 100%;
-    width: 50%;
+    width: auto;
+
+}
+
+.content2Picture {
+
+    height: 0px;
+    width: 0px;
 
 }
 
@@ -154,7 +177,7 @@ h3 {
     font-size: 60px;
 }
 
-.summaryText {
+.summaryText2 {
     margin-top: 5px;
     text-align: center;
     font-family: Lato, sans-serif;
@@ -165,7 +188,7 @@ h3 {
     padding-left: 100px;
     display: block;
     position: relative;
-    top: auto;
+    top: 55%;
 
 }
 
@@ -194,32 +217,32 @@ h3 {
 
 }
 
-.Github {
+.Github2 {
     margin: 0;
     padding: 0;
     height: auto;
     width: auto;
     position: relative;
-    top: 0%;
+    top: 60%;
     left: 40%;
 }
 
-.Github img {
+.Github2 img {
     height: 35px;
     width: auto;
 }
 
-.Download {
+.Download2 {
     margin: 0;
     padding: 0;
     float: right;
     height: auto;
     width: auto;
     position: relative;
-    top: -1.9%;
+    top: 57.8%;
 }
 
-.Download img {
+.Download2 img {
     height: 60px;
     width: auto;
 }
@@ -232,6 +255,8 @@ h3 {
     margin-right: auto;
     height: 200px;
     width: 100%;
+    position: relative;
+    top: auto;
 
 
 }
@@ -240,8 +265,39 @@ h3 {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    height: 100%;
-    width: 50%;
+    height: 130%;
+    width: auto;
+
+}
+
+.content3Picture {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 100%;
+
+
+}
+
+.content3TabletPicture img {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 130%;
+    width: auto;
+}
+
+.content3TabletPicture {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 100%;
+    position: relative;
+    top: -4%;
+    left: 0%;
+
 
 }
 
@@ -266,7 +322,7 @@ h3 {
     font-size: 60px;
 }
 
-.summaryText {
+.summaryText3 {
     margin-top: 5px;
     text-align: center;
     font-family: Lato, sans-serif;
@@ -277,7 +333,7 @@ h3 {
     padding-left: 100px;
     display: block;
     position: relative;
-    top: auto;
+    top: 14%;
 
 }
 
@@ -339,22 +395,44 @@ h3 {
 
 /* Content 4 thingies */
 
-.content4Picture {
+.content4In img {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 130%;
+    width: auto;
+
+}
+
+.content4In {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     height: 200px;
     width: 100%;
-
-
+    position: relative;
+    top: 48%;
+    left: -0.6%;
 }
 
-.content4Picture img {
+.content4Out img {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    height: 100%;
-    width: 50%;
+    height: 130%;
+    width: auto;
+}
+
+.content4Out {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 100%;
+    position: relative;
+    top: -48%;
+    left: 0%;
+
 
 }
 
@@ -379,7 +457,7 @@ h3 {
     font-size: 60px;
 }
 
-.summaryText {
+.summaryText4 {
     margin-top: 5px;
     text-align: center;
     font-family: Lato, sans-serif;
@@ -390,7 +468,7 @@ h3 {
     padding-left: 100px;
     display: block;
     position: relative;
-    top: auto;
+    top: 10%;
 
 }
 
@@ -419,17 +497,17 @@ h3 {
 
 }
 
-.Github {
+.Github4 {
     margin: 0;
     padding: 0;
     height: auto;
     width: auto;
     position: relative;
-    top: 0%;
-    left: 40%;
+    top: 10%;
+    left: 47.5%;
 }
 
-.Github img {
+.Github4 img {
     height: 35px;
     width: auto;
 }
@@ -451,22 +529,44 @@ h3 {
 
 /* Content 5 thingies */
 
-.content5Picture {
+.content5In img {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150%;
+    width: auto;
+
+}
+
+.content5In {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     height: 200px;
     width: 100%;
-
-
+    position: relative;
+    top: 53%;
+    left: 0%;
 }
 
-.content5Picture img {
+.content5Out img {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    height: 100%;
-    width: 50%;
+    height: 150%;
+    width: auto;
+}
+
+.content5Out {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 100%;
+    position: relative;
+    top: -48%;
+    left: 0%;
+
 
 }
 
@@ -491,7 +591,7 @@ h3 {
     font-size: 60px;
 }
 
-.summaryText {
+.summaryText5 {
     margin-top: 5px;
     text-align: center;
     font-family: Lato, sans-serif;
@@ -502,7 +602,7 @@ h3 {
     padding-left: 100px;
     display: block;
     position: relative;
-    top: auto;
+    top: 24%;
 
 }
 
@@ -531,17 +631,17 @@ h3 {
 
 }
 
-.Github {
+.Github5 {
     margin: 0;
     padding: 0;
     height: auto;
     width: auto;
     position: relative;
-    top: 0%;
-    left: 40%;
+    top: 22%;
+    left: 48%;
 }
 
-.Github img {
+.Github5 img {
     height: 35px;
     width: auto;
 }
@@ -603,7 +703,7 @@ h3 {
     font-size: 60px;
 }
 
-.summaryText {
+.summaryText6 {
     margin-top: 5px;
     text-align: center;
     font-family: Lato, sans-serif;
@@ -614,7 +714,7 @@ h3 {
     padding-left: 100px;
     display: block;
     position: relative;
-    top: auto;
+    top: 66%;
 
 }
 
@@ -643,32 +743,35 @@ h3 {
 
 }
 
-.Github {
+.content6Video {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 100%;
+    position: relative;
+    top: -30%;
+    left: auto;
+
+}
+
+.content6Video video {
+    height: 140%;
+    width: auto;
+
+}
+
+.DownloadFirst {
     margin: 0;
     padding: 0;
     height: auto;
     width: auto;
     position: relative;
-    top: 0%;
-    left: 40%;
+    top: 65%;
+    left: -47.5%;
 }
 
-.Github img {
-    height: 35px;
-    width: auto;
-}
-
-.Download {
-    margin: 0;
-    padding: 0;
-    float: right;
-    height: auto;
-    width: auto;
-    position: relative;
-    top: -1.9%;
-}
-
-.Download img {
+.DownloadFirst img {
     height: 60px;
     width: auto;
 }
