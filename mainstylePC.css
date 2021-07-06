@@ -6,26 +6,26 @@
 
 @font-face {
     font-family: 'plexus_sansbold';
-    src: url('/plexussans-bold-webfont.woff2') format('woff2'),
-        url('/plexussans-bold-webfont.woff') format('woff');
+    src: url('/Content/fonts/Plexus/plexussans-bold-webfont.woff2') format('woff2'),
+        url('/Content/fonts/Plexus/plexussans-bold-webfont.woff') format('woff');
 }
 
 @font-face {
     font-family: 'corsa_regular';
-    src: url('/typedepot_-_corsa_grotesk_regular-webfont.woff2') format('woff2'),
-        url('/typedepot_-_corsa_grotesk_regular-webfont.woff') format('woff');
+    src: url('/Content/fonts/CorsaRegular/typedepot_-_corsa_grotesk_regular-webfont.woff2') format('woff2'),
+        url('/Content/fonts/CorsaRegular/typedepot_-_corsa_grotesk_regular-webfont.woff') format('woff');
 }
 
 @font-face {
     font-family: 'corsa_groteskthin';
-    src: url('/typedepot_-_corsa_grotesk_thin-webfont.woff2') format('woff2'),
-        url('/typedepot_-_corsa_grotesk_thin-webfont.woff') format('woff');
+    src: url('/Content/fonts/CorsaThin/typedepot_-_corsa_grotesk_thin-webfont.woff2') format('woff2'),
+        url('/Content/fonts/CorsaThin/typedepot_-_corsa_grotesk_thin-webfont.woff') format('woff');
 }
 
 @font-face {
     font-family: 'valencia';
-    src: url('/valencia-webfont.woff2') format('woff2'),
-        url('/valencia-webfont.woff') format('woff');
+    src: url('/Content/fonts/Valencia/valencia-webfont.woff2') format('woff2'),
+        url('/Content/fonts/Valencia/valencia-webfont.woff') format('woff');
 }
 
 /* Title on top of page */
