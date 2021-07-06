@@ -2,28 +2,30 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@900&family=Montserrat:wght@800&display=swap');
 
+
+
 @font-face {
     font-family: 'plexus_sansbold';
-    src: url('plexussans-bold-webfont.woff2') format('woff2'),
-        url('plexussans-bold-webfont.woff') format('woff');
+    src: url('/plexussans-bold-webfont.woff2') format('woff2'),
+        url('/plexussans-bold-webfont.woff') format('woff');
 }
 
 @font-face {
     font-family: 'corsa_regular';
-    src: url('typedepot_-_corsa_grotesk_regular-webfont.woff2') format('woff2'),
-        url('typedepot_-_corsa_grotesk_regular-webfont.woff') format('woff');
+    src: url('/typedepot_-_corsa_grotesk_regular-webfont.woff2') format('woff2'),
+        url('/typedepot_-_corsa_grotesk_regular-webfont.woff') format('woff');
 }
 
 @font-face {
     font-family: 'corsa_groteskthin';
-    src: url('typedepot_-_corsa_grotesk_thin-webfont.woff2') format('woff2'),
-        url('typedepot_-_corsa_grotesk_thin-webfont.woff') format('woff');
+    src: url('/typedepot_-_corsa_grotesk_thin-webfont.woff2') format('woff2'),
+        url('/typedepot_-_corsa_grotesk_thin-webfont.woff') format('woff');
 }
 
 @font-face {
     font-family: 'valencia';
-    src: url('valencia-webfont.woff2') format('woff2'),
-        url('valencia-webfont.woff') format('woff');
+    src: url('/valencia-webfont.woff2') format('woff2'),
+        url('/valencia-webfont.woff') format('woff');
 }
 
 /* Title on top of page */
@@ -34,7 +36,7 @@
 
 .pageTitle {
     font-family: valencia, sans-serif;
-    font-weight: normal;
+    font-weight: bolder;
     font-style: normal;
     color: black;
     text-align: center;
