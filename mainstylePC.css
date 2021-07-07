@@ -841,9 +841,9 @@ h3 {
 
 }
 
-.content6Video video {
-    height: 170%;
-    width: auto;
+.content6Video iframe {
+    height: 157%;
+    width: 370%;
 }
 
 
