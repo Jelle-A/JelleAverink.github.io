@@ -833,7 +833,7 @@ h3 {
 .content6Video {
     float: right;
     padding-top: -10px;
-    height: 200px;
+    height: 300px;
     width: 10%;
     position: relative;
     top: 140%;
@@ -842,7 +842,7 @@ h3 {
 }
 
 .content6Video iframe {
-    height: 157%;
+    height: 127%;
     width: 370%;
 }
 
