@@ -750,14 +750,14 @@ h3 {
     height: 200px;
     width: 100%;
     position: relative;
-    top: -30%;
+    top: -5%;
     left: auto;
 
 }
 
-.content6Video video {
-    height: 140%;
-    width: auto;
+.content6Video iframe {
+    height: 100%;
+    width: 40%;
 
 }
 
