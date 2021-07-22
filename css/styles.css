@@ -1,0 +1,512 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #000;
+    font-family: "Neue Montreal";
+    overflow: hidden;
+}
+
+
+.cursor {
+    position: absolute;
+    background: white;
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    z-index: 1;
+    transition: 0.5s cubic-bezier(0.75, -1.27, 0.3, 2.33) transform,
+        0.2s cubic-bezier(0.75, -1.27, 0.3, 2.33) opacity;
+    user-select: none;
+    pointer-events: none;
+    transform: scale(0.8);
+    mix-blend-mode: difference;
+}
+
+.cursor:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    background-image: url("http://mirkozeppieri.emanuelepapale.com/wp-content/uploads/2018/07/project-hover-cursor.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+    opacity: 0;
+}
+
+.cursor.active {
+    opacity: 1;
+    transform: scale(6);
+}
+
+.cursor.active::before {
+    opacity: 1;
+}
+
+.cursor-follower {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.1);
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    z-index: 1;
+    transition: 0.6s cubic-bezier(0.75, -1.27, 0.3, 2.33) transform,
+        0.4s cubic-bezier(0.75, -1.27, 0.3, 2.33) opacity;
+    user-select: none;
+    pointer-events: none;
+    transform: translate(4px, 4px);
+}
+
+.cursor-follower.active {
+    opacity: 0.3;
+    transform: scale(0);
+}
+
+.home {
+    overflow: hidden;
+}
+
+/* menu */
+nav {
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+}
+
+.menu__logo, .menu__items-link {
+    padding: 40px;
+}
+
+.menu__logo a {
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.menu__items {
+    display: flex;
+}
+
+.menu__items-link a {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.menu__items-link.active a {
+    text-decoration: underline;
+}
+
+/* horizontal scroll items  */
+
+.container {
+    margin-top: 200px;
+    margin-left: 200px;
+    
+}
+
+.container__item {
+    position: relative;
+    width: 540px;
+    height: 360px;
+    margin: 50px 500px 20px 80px;
+}
+
+.container__item1 {
+    position: relative;
+    width: 540px;
+    height: 360px;
+    margin: 50px 500px 20px 80px;
+}
+
+.container__item-header h1 {
+    position: relative;
+    top: 40px;
+    left: 0;
+    right: 0;
+    width: 600px;
+    height: 360px;
+    font-size: 100px !important;
+}
+
+.container__item-header h1:hover {
+	transition-duration: 0.3s;
+	color: black;
+	-webkit-text-stroke: 1.5px #ffff;
+}
+
+.container__item-header-who h1 {
+    position: relative;
+    top: 40px;
+    left: 0;
+    right: 0;
+    width: 600px;
+    height: 360px;
+    font-size: 100px !important;
+}
+
+.container__item-header-who h1.hidden {
+    -webkit-text-fill-color: transparent;
+}
+
+
+.container__item-header-who h1.hidden:hover {
+	transition-duration: 0.7s;
+	-webkit-text-fill-color: transparent;
+	-webkit-text-stroke: 1.5px #ffff;
+    background: url(../images/Jelle1.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.container__item h1 {
+    position: absolute;
+    right: 240px;
+    bottom: -40px;
+    color: #fff;
+    font-family: "GrandSlang Roman";
+    font-weight: lighter;
+    font-size: 64px;
+}
+
+.container__item-title a {
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.container__item-title a:hover {
+    transition-duration: 0.3s;
+    -webkit-text-fill-color: transparent;
+	-webkit-text-stroke: 1.5px #ffff;
+}
+
+.container__item-title-who a {
+    position: relative;
+    right: 20px;
+    bottom: 300px;
+    color: #fff;
+    font-family: "GrandSlang Roman";
+    font-weight: lighter;
+    font-size: 130px;
+}
+
+.container__item-title-who a {
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.container__item-title-who a:hover {
+	transition-duration: 0.3s;
+    -webkit-text-fill-color: transparent;
+	-webkit-text-stroke: 1.5px #ffff;
+}
+
+.container__item-1 {
+    transition: all 0.5s cubic-bezier(0.25, 1, 0.3, 1);
+    background: url(../images/Firts.png) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+
+.container__item-1:hover {
+    transition: all 0.5s cubic-bezier(0.25, 1, 0.3, 1);
+    background: url(../images/Firts.png) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.container__item-2 {
+    background: url(../images/Poster.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.container__item-3 {
+    background: url(../images/Foggy.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.container__item-4 {
+    background: url(../images/treasure\ hunts.png) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+
+@media(max-width: 900px) {
+    .container__item {
+        width: 300px;
+        height: 200px;
+        margin: 50px 100px 20px 80px;
+    }
+
+    .container__item-header h1 {
+        font-size: 30px !important;
+        left: -50%;
+    }
+
+    .container__item h1 {
+        font-size: 40px;
+        bottom: -20px;
+    }
+
+    .container__item-title {
+        position: relative;
+        left: 1%;
+    
+    }
+
+    .container__item-header-who {
+        position: relative;
+        right: 120px;
+        color: #fff;
+        font-family: "GrandSlang Roman";
+        font-weight: lighter;
+        font-size: 130px;
+    
+    }
+
+    .container__item-header-who h1.hidden:hover {
+        transition-duration: 0.7s;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke: 1.5px #ffff;
+        background: url(../images/Jelle1.jpg) no-repeat;
+        width: 90%;
+        background-size: cover;
+    }
+
+}
+
+/* about page styles */
+
+#js-scroll {
+    height: 200%;
+}
+
+.about__container {
+    width: 50%;
+    margin: 180px 0 100px 100px;
+    padding: 40px;
+    /* border: 1px solid #525252; */
+}
+
+.about__container p {
+    margin: 60px 0;
+    color: #fff;
+    font-size: 46px;
+    font-weight: 400;
+    z-index: 2;
+}
+
+.about__container p span {
+    font-family: "GrandSlang Roman";
+}
+
+.about__container-contact-link a {
+    color: #fff;
+}
+
+p.about__container-link {
+    font-size: 26px;
+}
+
+.about__container-link a {
+    color: #fff;
+    font-size: 26px;
+}
+
+.cursor-follow {
+    position: absolute;
+    background: url(../images/Jelle2.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+    z-index: -1;
+ 
+    user-select: none;
+    pointer-events: none;
+    transform: translate(5px, 5px);
+}
+
+@media(max-width: 900px) {
+    .about__container {
+        width: 70%;
+        margin: 140px 0 60px 40px;
+    }
+
+    .cursor-follow {
+        display: none;
+    }
+}
+
+/* project section */
+
+.project__container {
+    width: 70%;
+    margin: 100px auto;
+    /* border: 1px solid #5c5c5c; */
+    color: #fff;
+    padding: 120px 40px;
+    text-align: center;
+}
+
+.project__container-title h1{
+    color: #fff;
+    font-family: "GrandSlang Roman";
+    font-size: 140px;
+}
+
+.project__container-subtitle {
+    margin: 20px 0;
+    font-family: "Neue Montreal";
+    font-size: 16px;
+}
+
+.project__container-images {
+    position: relative;
+    width: 100%;
+    height: 2000px;
+    padding: 40px 0;
+}
+
+.project__image {
+    background: red;
+    width: 600px;
+    height: 500px;
+    margin: 40px auto;
+}
+
+.project__image-one {
+    background: url(../images/Firts.png) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.project__image-two {
+    position: relative;
+    top: -100px;
+    left: -260px;
+    background: url(../images/Poster.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.project__image-three {
+    position: relative;
+    left: 300px;
+    background: url(../images/Foggy.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.project__image-four {
+    position: relative;
+    top: -200px;
+    left: -100px;
+    background: url(../images/treasure\ hunts.png) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.project__image-5 {
+    position: relative;
+    top: 0px;
+    left: -260px;
+    background-size: cover;
+}
+
+.project__image-6 {
+    position: relative;
+    top: -150px;
+    left: 300px;
+    background-size: cover;
+}
+
+.project__image-7 {
+    position: relative;
+    top: -100px;
+    left: 700px;
+    background-size: cover;
+}
+
+.about__image {
+    width: 200px;
+    height: 200px;
+    margin: 40px auto;
+}
+
+.sizeimg img{
+    width: 100%;
+    height:  100%;
+    margin: 40px auto;
+}
+
+.project-next-link {
+    position: relative;
+    top: 300px;
+    width: 140%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-next-link a {
+    font-size: 84px;
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.project-next-link a:hover {
+    transition-duration: 0.3s;
+    -webkit-text-fill-color: transparent;
+	-webkit-text-stroke: 1.5px #ffff;
+}
+
+.anime-js-title .letter {
+    display: inline-block;
+    line-height: 1em;
+}
+
+
+
+@media(max-width: 900px) {
+    .project__container-title h1 {
+        font-size: 90px;
+    }
+
+    .project__container {
+        width: 80%;
+    }
+
+    .project__container-images {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .project__image {
+        width: 90%;
+    }
+
+    .project__image-one, .project__image-two, .project__image-three, .project__image-four, .project__image-5, .project__image-6, .project__image-7  {
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+
+    .project-next-link { 
+        position: relative;
+        left: -20%;
+
+    }
+    
+
+    
+}
