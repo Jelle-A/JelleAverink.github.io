@@ -37,35 +37,34 @@
             <p class="about__container-data" data-scroll>Hello! My name is <span>Jelle Averink</span> and I'm a
                 designer and student at Saxion Enschede, right now I am located in <span>Hengelo,</span> The Netherlands.</p>
 
-            <p data-scroll>If you want to get in touch with me or just want to have a chat, <span
-                    class="about__container-contact-link"><a href="mailto:j.averink2001@gmail.com" target="_blank">
+            <p data-scroll>If you want to get in touch with me or just want to have a chat, <span class="about__container-contact-link"><a href="mailto:j.averink2001@gmail.com" target="_blank">
                         please contact me :)</a></span></p>
             <p class="about__container-link" data-scroll>
-                    My socials.</p>
+                My socials.</p>
 
-                <div class="about__image project__image-5" data-scroll data-scroll-speed="4">
+            <div class="about__image project__image-5" data-scroll data-scroll-speed="4">
                 <figure class="sizeimg">
                     <a href="https://www.instagram.com/jelle.averink/">
-                        <img src="../Minimal-Portfolio-Website-HTML-CSS-JavaScript-main/images/insta.png">
+                        <img src="/images/insta.png">
                     </a>
                 </figure>
-                </div>
+            </div>
 
-                <div class="about__image project__image-7" data-scroll data-scroll-speed="3">
+            <div class="about__image project__image-7" data-scroll data-scroll-speed="3">
                 <figure class="sizeimg">
                     <a href="https://www.linkedin.com/in/jelle-averink-3564931ab/">
-                        <img src="../Minimal-Portfolio-Website-HTML-CSS-JavaScript-main/images/linkedin.png">
+                        <img src="/images/linkedin.png">
                     </a>
                 </figure>
-                </div>
+            </div>
 
-                <div class="about__image project__image-6" data-scroll data-scroll-speed="1"> 
+            <div class="about__image project__image-6" data-scroll data-scroll-speed="1">
                 <figure class="sizeimg">
                     <a href="https://github.com/Jelle-A">
-                        <img src="../Minimal-Portfolio-Website-HTML-CSS-JavaScript-main/images/git.png">
+                        <img src="/images/git.png">
                     </a>
                 </figure>
-                </div>
+            </div>
 
         </div>
 
@@ -95,7 +94,7 @@
 
         TweenMax.to({}, 0.016, {
             repeat: -1,
-            onRepeat: function () {
+            onRepeat: function() {
                 posX += (mouseX - posX) / 9;
                 posY += (mouseY - posY) / 9;
 
@@ -108,10 +107,11 @@
             }
         });
 
-        document.addEventListener("mousemove", function (e) {
+        document.addEventListener("mousemove", function(e) {
             mouseX = e.pageX;
             mouseY = e.pageY;
         });
+
     </script>
 
 </body>
