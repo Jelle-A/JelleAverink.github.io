@@ -83,7 +83,8 @@ nav {
     z-index: 2;
 }
 
-.menu__logo, .menu__items-link {
+.menu__logo,
+.menu__items-link {
     padding: 40px;
 }
 
@@ -114,7 +115,7 @@ nav {
 .container {
     margin-top: 200px;
     margin-left: 200px;
-    
+
 }
 
 .container__item {
@@ -142,9 +143,9 @@ nav {
 }
 
 .container__item-header h1:hover {
-	transition-duration: 0.3s;
-	color: black;
-	-webkit-text-stroke: 1.5px #ffff;
+    transition-duration: 0.3s;
+    color: black;
+    -webkit-text-stroke: 1.5px #ffff;
 }
 
 .container__item-header-who h1 {
@@ -163,9 +164,9 @@ nav {
 
 
 .container__item-header-who h1.hidden:hover {
-	transition-duration: 0.7s;
-	-webkit-text-fill-color: transparent;
-	-webkit-text-stroke: 1.5px #ffff;
+    transition-duration: 0.7s;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1.5px #ffff;
     background: url(../images/Jelle1.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
@@ -189,7 +190,7 @@ nav {
 .container__item-title a:hover {
     transition-duration: 0.3s;
     -webkit-text-fill-color: transparent;
-	-webkit-text-stroke: 1.5px #ffff;
+    -webkit-text-stroke: 1.5px #ffff;
 }
 
 .container__item-title-who a {
@@ -209,9 +210,10 @@ nav {
 }
 
 .container__item-title-who a:hover {
-	transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    color: black;
     -webkit-text-fill-color: transparent;
-	-webkit-text-stroke: 1.5px #ffff;
+    -webkit-text-stroke: 1.5px #ffff;
 }
 
 .container__item-1 {
@@ -263,7 +265,7 @@ nav {
     .container__item-title {
         position: relative;
         left: 1%;
-    
+
     }
 
     .container__item-header-who {
@@ -273,7 +275,7 @@ nav {
         font-family: "GrandSlang Roman";
         font-weight: lighter;
         font-size: 130px;
-    
+
     }
 
     .container__item-header-who h1.hidden:hover {
@@ -332,7 +334,7 @@ p.about__container-link {
     width: 300px;
     height: 400px;
     z-index: -1;
- 
+
     user-select: none;
     pointer-events: none;
     transform: translate(5px, 5px);
@@ -360,7 +362,7 @@ p.about__container-link {
     text-align: center;
 }
 
-.project__container-title h1{
+.project__container-title h1 {
     color: #fff;
     font-family: "GrandSlang Roman";
     font-size: 140px;
@@ -441,9 +443,9 @@ p.about__container-link {
     margin: 40px auto;
 }
 
-.sizeimg img{
+.sizeimg img {
     width: 100%;
-    height:  100%;
+    height: 100%;
     margin: 40px auto;
 }
 
@@ -467,7 +469,7 @@ p.about__container-link {
 .project-next-link a:hover {
     transition-duration: 0.3s;
     -webkit-text-fill-color: transparent;
-	-webkit-text-stroke: 1.5px #ffff;
+    -webkit-text-stroke: 1.5px #ffff;
 }
 
 .anime-js-title .letter {
@@ -495,18 +497,24 @@ p.about__container-link {
         width: 90%;
     }
 
-    .project__image-one, .project__image-two, .project__image-three, .project__image-four, .project__image-5, .project__image-6, .project__image-7  {
+    .project__image-one,
+    .project__image-two,
+    .project__image-three,
+    .project__image-four,
+    .project__image-5,
+    .project__image-6,
+    .project__image-7 {
         position: relative;
         top: 0;
         left: 0;
     }
 
-    .project-next-link { 
+    .project-next-link {
         position: relative;
         left: -20%;
 
     }
-    
 
-    
+
+
 }
