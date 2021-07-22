@@ -16,7 +16,7 @@
     <!-- greensock -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
 
-    
+
 </head>
 
 <body class="home">
@@ -33,7 +33,7 @@
             </div>
             <div class="menu__items">
                 <div class="menu__items-link active"><a href="project.html">Projects</a></div>
-                <div class="menu__items-link"><a href="about.html">About Me</a></div>
+                <div class="menu__items-link"><a href="About.html">About Me</a></div>
             </div>
         </nav>
 
@@ -66,9 +66,9 @@
             </div>
             <div class="container__item container__item-header-who">
                 <a href="about.html">
-                <h1>WHO</h1>
-                <h1 class="hidden">ME⬇</h1>
-            </a>
+                    <h1>WHO</h1>
+                    <h1 class="hidden">ME⬇</h1>
+                </a>
             </div>
         </div>
 
@@ -85,112 +85,114 @@
             isAnimated: true,
             springEffect: 0.8,
         });
+
     </script>
 
-<script>
-    var cursor = $(".cursor"),
-        follower = $(".cursor-follower");
+    <script>
+        var cursor = $(".cursor"),
+            follower = $(".cursor-follower");
 
-    var posX = 0,
-        posY = 0,
-        mouseX = 0,
-        mouseY = 0;
+        var posX = 0,
+            posY = 0,
+            mouseX = 0,
+            mouseY = 0;
 
-    TweenMax.to({}, 0.016, {
-        repeat: -1,
-        onRepeat: function() {
-            posX += (mouseX - posX) / 9;
-            posY += (mouseY - posY) / 9;
+        TweenMax.to({}, 0.016, {
+            repeat: -1,
+            onRepeat: function() {
+                posX += (mouseX - posX) / 9;
+                posY += (mouseY - posY) / 9;
 
-            TweenMax.set(follower, {
-                css: {
-                    left: posX - 20,
-                    top: posY - 20
-                }
-            });
+                TweenMax.set(follower, {
+                    css: {
+                        left: posX - 20,
+                        top: posY - 20
+                    }
+                });
 
-            TweenMax.set(cursor, {
-                css: {
-                    left: mouseX,
-                    top: mouseY
-                }
-            });
+                TweenMax.set(cursor, {
+                    css: {
+                        left: mouseX,
+                        top: mouseY
+                    }
+                });
+            }
+        });
+
+        $(document).on("mousemove", function(e) {
+            mouseX = e.pageX;
+            mouseY = e.pageY;
+        });
+
+        $(".container__item-1 , .container__item-2 , .container__item-3, .container__item-4 , .container__item-header-who").on("mouseenter", function() {
+            cursor.addClass("active");
+            follower.addClass("active");
+        });
+
+        $(".container__item").on("mouseleave", function() {
+            cursor.removeClass("active");
+            follower.removeClass("active");
+        });
+
+    </script>
+
+
+    <script>
+        const tiltEffectSettings = {
+            max: 10, // max tilt rotation (degrees (deg))
+            perspective: 1000, // transform perspective, the lower the more extreme the tilt gets (pixels (px))
+            scale: 1.1, // transform scale - 2 = 200%, 1.5 = 150%, etc..
+            speed: 500, // speed (transition-duration) of the enter/exit transition (milliseconds (ms))
+            easing: "cubic-bezier(.43,.98,.52,.99)" // easing (transition-timing-function) of the enter/exit transition
+        };
+
+        const cards = document.querySelectorAll(".container__item-1 , .container__item-2 , .container__item-3, .container__item-4 , .container__item-header-who");
+
+        cards.forEach(card => {
+            card.addEventListener("mouseenter", cardMouseEnter);
+            card.addEventListener("mousemove", cardMouseMove);
+            card.addEventListener("mouseleave", cardMouseLeave);
+        });
+
+        function cardMouseEnter(event) {
+            setTransition(event);
         }
-    });
 
-    $(document).on("mousemove", function(e) {
-        mouseX = e.pageX;
-        mouseY = e.pageY;
-    });
+        function cardMouseMove(event) {
+            const card = event.currentTarget;
+            const cardWidth = card.offsetWidth;
+            const cardHeight = card.offsetHeight;
+            const centerX = card.offsetLeft + cardWidth / 2;
+            const centerY = card.offsetTop + cardHeight / 2;
+            const mouseX = event.clientX - centerX;
+            const mouseY = event.clientY - centerY;
+            const rotateXUncapped = (+1) * tiltEffectSettings.max * mouseY / (cardHeight / 2);
+            const rotateYUncapped = (-1) * tiltEffectSettings.max * mouseX / (cardWidth / 2);
+            const rotateX = rotateXUncapped < -tiltEffectSettings.max ? -tiltEffectSettings.max :
+                (rotateXUncapped > tiltEffectSettings.max ? tiltEffectSettings.max : rotateXUncapped);
+            const rotateY = rotateYUncapped < -tiltEffectSettings.max ? -tiltEffectSettings.max :
+                (rotateYUncapped > tiltEffectSettings.max ? tiltEffectSettings.max : rotateYUncapped);
 
-    $(".container__item-1 , .container__item-2 , .container__item-3, .container__item-4 , .container__item-header-who").on("mouseenter", function() {
-        cursor.addClass("active");
-        follower.addClass("active");
-    });
-
-    $(".container__item").on("mouseleave", function() {
-        cursor.removeClass("active");
-        follower.removeClass("active");
-    });
-
-</script>
-
-
-<script>
-const tiltEffectSettings = {
-    max: 10, // max tilt rotation (degrees (deg))
-    perspective: 1000, // transform perspective, the lower the more extreme the tilt gets (pixels (px))
-    scale: 1.1, // transform scale - 2 = 200%, 1.5 = 150%, etc..
-    speed: 500, // speed (transition-duration) of the enter/exit transition (milliseconds (ms))
-    easing: "cubic-bezier(.43,.98,.52,.99)" // easing (transition-timing-function) of the enter/exit transition
-  };
-  
-  const cards = document.querySelectorAll(".container__item-1 , .container__item-2 , .container__item-3, .container__item-4 , .container__item-header-who");
-  
-  cards.forEach(card => {
-    card.addEventListener("mouseenter", cardMouseEnter);
-    card.addEventListener("mousemove", cardMouseMove);
-    card.addEventListener("mouseleave", cardMouseLeave);
-  });
-  
-  function cardMouseEnter(event) {
-    setTransition(event);
-  }
-  
-  function cardMouseMove(event) {
-    const card = event.currentTarget;
-    const cardWidth = card.offsetWidth;
-    const cardHeight = card.offsetHeight;
-    const centerX = card.offsetLeft + cardWidth/2;
-    const centerY = card.offsetTop + cardHeight/2;
-    const mouseX = event.clientX - centerX;
-    const mouseY = event.clientY - centerY;
-    const rotateXUncapped = (+1)*tiltEffectSettings.max*mouseY/(cardHeight/2);
-    const rotateYUncapped = (-1)*tiltEffectSettings.max*mouseX/(cardWidth/2);
-    const rotateX = rotateXUncapped < -tiltEffectSettings.max ? -tiltEffectSettings.max : 
-                    (rotateXUncapped > tiltEffectSettings.max ? tiltEffectSettings.max : rotateXUncapped);
-    const rotateY = rotateYUncapped < -tiltEffectSettings.max ? -tiltEffectSettings.max : 
-                    (rotateYUncapped > tiltEffectSettings.max ? tiltEffectSettings.max : rotateYUncapped);
-  
-    card.style.transform = `perspective(${tiltEffectSettings.perspective}px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) 
+            card.style.transform = `perspective(${tiltEffectSettings.perspective}px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) 
                             scale3d(${tiltEffectSettings.scale}, ${tiltEffectSettings.scale}, ${tiltEffectSettings.scale})`;
-  }
-  
-  function cardMouseLeave(event) {
-    event.currentTarget.style.transform = `perspective(${tiltEffectSettings.perspective}px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1)`;
-    setTransition(event);
-  }
-  
-  function setTransition(event) {
-    const card = event.currentTarget;
-    clearTimeout(card.transitionTimeoutId);
-    card.style.transition = `transform ${tiltEffectSettings.speed}ms ${tiltEffectSettings.easing}`;
-    card.transitionTimeoutId = setTimeout(() => {
-      card.style.transition = "";
-    }, tiltEffectSettings.speed);
-  }
-</script>
-    
+        }
+
+        function cardMouseLeave(event) {
+            event.currentTarget.style.transform = `perspective(${tiltEffectSettings.perspective}px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1)`;
+            setTransition(event);
+        }
+
+        function setTransition(event) {
+            const card = event.currentTarget;
+            clearTimeout(card.transitionTimeoutId);
+            card.style.transition = `transform ${tiltEffectSettings.speed}ms ${tiltEffectSettings.easing}`;
+            card.transitionTimeoutId = setTimeout(() => {
+                card.style.transition = "";
+            }, tiltEffectSettings.speed);
+        }
+
+    </script>
+
 </body>
 
 </html>
