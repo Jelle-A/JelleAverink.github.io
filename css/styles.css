@@ -3,9 +3,11 @@
     padding: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap');
+
 body {
     background: #000;
-    font-family: "Neue Montreal";
+    font-family: 'STIX Two Math', serif;
     overflow: hidden;
 }
 
