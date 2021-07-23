@@ -689,13 +689,22 @@ p.about__container-link {
     position: relative;
     width: 100px;
 	height: 100px;
-	margin-top: 150px;  
+	margin-top: 120px;  
 }
 
 
 .Down {
     position: relative;
-    top: -200px;
+    top: -180px;
+    left: 130px;;
+    width: 100px;
+	height: 100px;
+    margin-top: 75px; 
+}
+
+.Play {
+    position: relative;
+    top: -215px;
     left: 130px;;
     width: 100px;
 	height: 100px;

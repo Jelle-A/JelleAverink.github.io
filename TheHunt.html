@@ -57,7 +57,7 @@
                 </figure>
                 <figure>
                     <a href="ML.html">
-                        <img class="Down" src="Play.png">
+                        <img class="Play" src="Play.png">
                     </a>
                 </figure>
 			</div>
@@ -108,12 +108,12 @@
                 mouseY = e.pageY;
             });
     
-            $(".Repo , .Down").on("mouseenter", function() {
+            $(".Repo , .Down, .Play").on("mouseenter", function() {
                 cursor.addClass("active");
                 follower.addClass("active");
             });
     
-            $(".Repo , .Down").on("mouseleave", function() {
+            $(".Repo , .Down , .Play").on("mouseleave", function() {
                 cursor.removeClass("active");
                 follower.removeClass("active");
             });
