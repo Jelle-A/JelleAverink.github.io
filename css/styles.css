@@ -177,7 +177,7 @@ nav {
     right: 240px;
     bottom: -40px;
     color: #fff;
-    font-family: "GrandSlang Roman";
+    font-family: 'STIX Two Math', serif;
     font-weight: lighter;
     font-size: 64px;
 }
@@ -199,7 +199,7 @@ nav {
     right: 20px;
     bottom: 300px;
     color: #fff;
-    font-family: "GrandSlang Roman";
+    font-family: 'STIX Two Math', serif;
     font-weight: lighter;
     font-size: 130px;
 }
@@ -273,7 +273,7 @@ nav {
         position: relative;
         right: 120px;
         color: #fff;
-        font-family: "GrandSlang Roman";
+        font-family: 'STIX Two Math', serif;
         font-weight: lighter;
         font-size: 130px;
 
@@ -312,7 +312,7 @@ nav {
 }
 
 .about__container p span {
-    font-family: "GrandSlang Roman";
+    font-family: 'STIX Two Math', serif;
 }
 
 .about__container-contact-link a {
@@ -365,7 +365,7 @@ p.about__container-link {
 
 .project__container-title h1 {
     color: #fff;
-    font-family: "GrandSlang Roman";
+    font-family: 'STIX Two Math', serif;
     font-size: 140px;
 }
 
