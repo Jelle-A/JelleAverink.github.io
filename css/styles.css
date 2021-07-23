@@ -482,7 +482,7 @@ p.about__container-link {
 
 @media(max-width: 900px) {
     .project__container-title h1 {
-        font-size: 82px;
+        font-size: 70px;
     }
 
     .project__container {
@@ -513,7 +513,7 @@ p.about__container-link {
     .project-next-link {
         position: relative;
         left: -20%;
-
+        font-size: 50px;
     }
 
 
