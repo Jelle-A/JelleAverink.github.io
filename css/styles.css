@@ -537,7 +537,7 @@ p.about__container-link {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	background: url("/Madness_Poster.png") no-repeat 50% 50%;
+	background: url(../images/Madness_Poster.png) no-repeat 50% 50%;
 	background-size: cover;
 	padding: 20px;
 }
@@ -548,7 +548,7 @@ p.about__container-link {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	background: url("/Poster-2.jpg") no-repeat 50% 50%;
+	background: url(../images/Poster-2.jpg) no-repeat 50% 50%;
 	background-size: cover;
 	padding: 20px;
 }
@@ -559,7 +559,7 @@ p.about__container-link {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	background: url("/Foggy-Dark.jpg") no-repeat 50% 50%;
+	background: url(../images/Foggy-Dark.jpg) no-repeat 50% 50%;
 	background-size: cover;
 	padding: 20px;
 }
@@ -570,7 +570,7 @@ p.about__container-link {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	background: url("/treasure\ hunts.png") no-repeat 50% 50%;
+	background: url(../images/treasure\ hunts.png) no-repeat 50% 50%;
 	background-size: cover;
 	padding: 20px;
 }
@@ -590,47 +590,47 @@ p.about__container-link {
 }
 
 .img-1 {
-	background: url("/Firts.png") no-repeat 50% 50%;
+	background: url(../images/Firts.png) no-repeat 50% 50%;
 	background-size: cover;
 }
 
 .img-2 {
-	background: url("/spacemad.png") no-repeat 50% 50%;
+	background: url(../images/spacemad.png) no-repeat 50% 50%;
 	background-size: cover;
 }
 
 .img-3 {
-	background: url("/bookMad.png") no-repeat 50% 50%;
+	background: url(../images/bookMad.png) no-repeat 50% 50%;
 	background-size: cover;
 }
 
 .img-4 {
-	background: url("/madRoom.png") no-repeat 50% 50%;
+	background: url(../images/madRoom.png) no-repeat 50% 50%;
 	background-size: cover;
 }
 
 .img-5 {
-	background: url("/mainsocial.png") no-repeat 50% 50%;
+	background: url(../images/mainsocial.png) no-repeat 50% 50%;
 	background-size: cover;
 }
 
 .img-6 {
-	background: url("/Poster.jpg") no-repeat 50% 50%;
+	background: url(../images/Poster.jpg) no-repeat 50% 50%;
 	background-size: cover;
 }
 
 .img-7 {
-	background: url("/talksocial.png") no-repeat 50% 50%;
+	bbackground: url(../images/talksocial.png) no-repeat 50% 50%;
 	background-size: cover;
 }
 
 .img-8 {
-	background: url("/charchter\ \(2\).png") no-repeat 50% 50%;
+	background: url(../images/charchter.png) no-repeat 50% 50%;
 	background-size: cover;
 }
 
 .img-9 {
-	background: url("/Foggy2.jpg") no-repeat 50% 50%;
+	background: url(../images/Foggy2.jpg) no-repeat 50% 50%;
 	background-size: cover;
     width: 260px;
 	height: 200px;
@@ -638,7 +638,7 @@ p.about__container-link {
 }
 
 .img-10 {
-	background: url("/Foggy3.jpg") no-repeat 50% 50%;
+	background: url(../images/Foggy3.jpg) no-repeat 50% 50%;
 	background-size: cover;
     width: 260px;
 	height: 200px;
@@ -646,7 +646,7 @@ p.about__container-link {
 }
 
 .img-11 {
-	background: url("/Hunt1.png") no-repeat 50% 50%;
+	background: url(../images/Hunt1.png) no-repeat 50% 50%;
 	background-size: cover;
     width: 260px;
 	height: 200px;
@@ -654,7 +654,7 @@ p.about__container-link {
 }
 
 .img-12 {
-	background: url("/Found1.png") no-repeat 50% 50%;
+	background: url(../images/Found1.png) no-repeat 50% 50%;
 	background-size: cover;
     width: 260px;
 	height: 200px;
