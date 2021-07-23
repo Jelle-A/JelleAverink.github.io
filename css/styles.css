@@ -519,3 +519,112 @@ p.about__container-link {
 
 
 }
+
+.container-madness {
+	width: 100%;
+	height: 100vh;
+    position: relative;
+}
+
+.column {
+	width: 50%;
+	height: 100vh;
+}
+
+.left {
+	position: relative;
+	left: 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background: url("/images/Firts.png") no-repeat 50% 50%;
+	background-size: cover;
+	padding: 20px;
+}
+
+.right {
+	display: flex;
+	padding: 120px 0;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.img {
+	width: 160px;
+	height: 200px;
+	margin: 6px;
+}
+
+.img-1 {
+	background: url("/images/Jelle1.jpg") no-repeat 50% 50%;
+	background-size: cover;
+}
+
+.img-2 {
+	background: url("/images/git.png") no-repeat 50% 50%;
+	background-size: cover;
+}
+
+.img-3 {
+	background: url("/images/Firts.png") no-repeat 50% 50%;
+	background-size: cover;
+}
+
+.img-4 {
+	background: url("/images/insta.png") no-repeat 50% 50%;
+	background-size: cover;
+}
+
+.header {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 40px;
+}
+
+.header-1 {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 40px;
+    position: relative;
+    top: 10%;
+}
+
+.header h1 {
+	position: relative;
+    top: 10px;
+}
+
+.ml12 .letter {
+	display: inline-block;
+	line-height: 9em;
+}
+
+
+@media (min-width: 900px) {
+	.container-madness {
+		display: flex;
+	}
+
+	.images {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+@media (max-width: 900px) {
+	.column {
+		width: 100%;
+	}
+
+	.img {
+		width: 400px;
+		height: 400px;
+	}
+
+	.header {
+		font-size: 20px;
+		padding: 80px 0;
+	}
+}

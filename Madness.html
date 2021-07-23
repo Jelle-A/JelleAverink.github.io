@@ -15,12 +15,11 @@
     <!-- greensock -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
 
-    <!-- locomotive-scroll -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.2.5/dist/locomotive-scroll.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.2.5/dist/locomotive-scroll.min.js"></script>
+    <!--animation slider-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 </head>
 
-<body id="js-scroll">
+<body>
 
     <div class="cursor"></div>
     <div class="cursor-follower"></div>
@@ -38,41 +37,80 @@
             </div>
         </nav>
 
-        <!-- project section -->
-        <div class="project__container" data-scroll-section>
+        <div class="container-madness">
+			<div class="left column">
+				<div class="header-1">
+					<p>boundary supply /</p>
+					<p>
+						better than brand new second hand clothing / focus by sick apparel
+						everyday,
+					</p>
+					<p>home of (23-29)</p>
+				</div>
+			</div>
+			<div class="right column">
+				<div class="images">
+					<div class="img-1 img"></div>
+					<div class="img-2 img"></div>
+					<div class="img-3 img"></div>
+					<div class="img-4 img"></div>
+				</div>
+				<div class="header">
+					<h1 class="ml12">Madness</h1>
+				</div>
+			</div>
+		</div>
+		<script>
+			// Wrap every letter in a span
+			var textWrapper = document.querySelector(".ml12");
+			textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g,"<span class='letter'>$&</span>");
 
-            <div class="project__container-title" data-scroll>
-                <h1 class="anime-js-title">Projects</h1>
-            </div>
-            <div class="project__container-subtitle" data-scroll>
-                <p>Creative design</p>
-            </div>
+			anime.timeline().add({
+				targets: ".ml12 .letter",
+				translateY: [100, 0],
+				translateZ: 0,
+				opacity: [0, 1],
+				easing: "easeOutExpo",
+				duration: 2000,
+				delay: (el, i) => 2000 + 60 * i,
+			});
 
-            <div class="project__container-images">
-                <div class="project__image project__image-one" data-scroll data-scroll-speed="1">
-                    <div class="project-next-link" data-scroll>
-                        <a href="Madness.html">Madness</a>
-                    </div>
-                </div>
-                <div class="project__image project__image-two" data-scroll data-scroll-speed="4">
-                    <div class="project-next-link" data-scroll>
-                        <a href="project.html">Socialeven</a>
-                    </div>
-                </div>
-                <div class="project__image project__image-three" data-scrol data-scroll-speed="2">
-                    <div class="project-next-link" data-scroll>
-                        <a href="project.html">FoggyFilms</a>
-                    </div>
-                </div>
-                <div class="project__image project__image-four" data-scroll data-scroll-speed="4">
-                    <div class="project-next-link" data-scroll>
-                        <a href="project.html">The Hunt</a>
-                    </div>
-                </div>
-            </div>
+			TweenMax.from(".left", 3, {
+				left: "-50%",
+				ease: Expo.easeInOut,
+				delay: 3.4,
+			});
+			TweenMax.from(".header h1", 3, {
+				left: "-140%",
+				ease: Expo.easeInOut,
+				delay: 3.4,
+			});
+			TweenMax.staggerFrom(
+				".images > div",
+				1,
+				{
+					y: "60",
+					opacity: 0,
+					ease: Power2.easeOut,
+					delay: 6,
+				},
+				0.2
+			);
 
-        </div>
-    </div>
+			TweenMax.staggerFrom(
+				".header > p",
+				1,
+				{
+					y: "60",
+					opacity: 0,
+					ease: Power2.easeOut,
+					delay: 5.6,
+				},
+				0.2
+			);
+
+		</script>
+
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     <script>
