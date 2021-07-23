@@ -366,7 +366,7 @@ p.about__container-link {
 .project__container-title h1 {
     color: #fff;
     font-family: 'STIX Two Math', serif;
-    font-size: 140px;
+    font-size: 120px;
 }
 
 .project__container-subtitle {
@@ -461,7 +461,7 @@ p.about__container-link {
 }
 
 .project-next-link a {
-    font-size: 84px;
+    font-size: 74px;
     color: #fff;
     text-decoration: none;
 
