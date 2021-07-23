@@ -537,7 +537,40 @@ p.about__container-link {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	background: url("/images/Firts.png") no-repeat 50% 50%;
+	background: url("/images/Madness_Poster.png") no-repeat 50% 50%;
+	background-size: cover;
+	padding: 20px;
+}
+
+.left-1 {
+	position: relative;
+	left: 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background: url("/images/Poster-2.jpg") no-repeat 50% 50%;
+	background-size: cover;
+	padding: 20px;
+}
+
+.left-2 {
+	position: relative;
+	left: 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background: url("/images/Foggy-Dark.jpg") no-repeat 50% 50%;
+	background-size: cover;
+	padding: 20px;
+}
+
+.left-3 {
+	position: relative;
+	left: 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background: url("/images/treasure\ hunts.png") no-repeat 50% 50%;
 	background-size: cover;
 	padding: 20px;
 }
@@ -557,42 +590,123 @@ p.about__container-link {
 }
 
 .img-1 {
-	background: url("/images/Jelle1.jpg") no-repeat 50% 50%;
-	background-size: cover;
-}
-
-.img-2 {
-	background: url("/images/git.png") no-repeat 50% 50%;
-	background-size: cover;
-}
-
-.img-3 {
 	background: url("/images/Firts.png") no-repeat 50% 50%;
 	background-size: cover;
 }
 
-.img-4 {
-	background: url("/images/insta.png") no-repeat 50% 50%;
+.img-2 {
+	background: url("/images/spacemad.png") no-repeat 50% 50%;
 	background-size: cover;
+}
+
+.img-3 {
+	background: url("/images/bookMad.png") no-repeat 50% 50%;
+	background-size: cover;
+}
+
+.img-4 {
+	background: url("/images/madRoom.png") no-repeat 50% 50%;
+	background-size: cover;
+}
+
+.img-5 {
+	background: url("/images/mainsocial.png") no-repeat 50% 50%;
+	background-size: cover;
+}
+
+.img-6 {
+	background: url("/images/Poster.jpg") no-repeat 50% 50%;
+	background-size: cover;
+}
+
+.img-7 {
+	background: url("/images/talksocial.png") no-repeat 50% 50%;
+	background-size: cover;
+}
+
+.img-8 {
+	background: url("/images/charchter\ \(2\).png") no-repeat 50% 50%;
+	background-size: cover;
+}
+
+.img-9 {
+	background: url("/images/Foggy2.jpg") no-repeat 50% 50%;
+	background-size: cover;
+    width: 260px;
+	height: 200px;
+	margin: 6px;
+}
+
+.img-10 {
+	background: url("/images/Foggy3.jpg") no-repeat 50% 50%;
+	background-size: cover;
+    width: 260px;
+	height: 200px;
+	margin: 6px;
+}
+
+.img-11 {
+	background: url("/images/Hunt1.png") no-repeat 50% 50%;
+	background-size: cover;
+    width: 260px;
+	height: 200px;
+	margin: 6px;
+}
+
+.img-12 {
+	background: url("/images/Found1.png") no-repeat 50% 50%;
+	background-size: cover;
+    width: 260px;
+	height: 200px;
+	margin: 6px;
 }
 
 .header {
 	color: #fff;
 	text-transform: uppercase;
 	font-size: 40px;
+    
 }
 
 .header-1 {
 	color: #fff;
-	text-transform: uppercase;
-	font-size: 40px;
+	font-size: 25px;
     position: relative;
     top: 10%;
+    text-shadow: 3px 3px 4px #000000;
 }
+
+.header-1 p{
+	color: #fff;
+	font-size: 22px;
+    position: relative;
+    top: 10%;
+    line-break: 2px;
+    text-shadow: 3px 3px 4px #000000;
+}
+
+.Repo {
+    position: relative;
+    width: 100px;
+	height: 100px;
+	margin-top: 150px;  
+}
+
+
+.Down {
+    position: relative;
+    top: -200px;
+    left: 130px;;
+    width: 100px;
+	height: 100px;
+    margin-top: 75px; 
+}
+
 
 .header h1 {
 	position: relative;
     top: 10px;
+    
 }
 
 .ml12 .letter {

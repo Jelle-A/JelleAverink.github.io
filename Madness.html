@@ -40,12 +40,17 @@
         <div class="container-madness">
 			<div class="left column">
 				<div class="header-1">
-					<p>boundary supply /</p>
+					<h1>GAME & SOUND DESIGNER</h1>
+                    <br>
 					<p>
-						better than brand new second hand clothing / focus by sick apparel
-						everyday,
+						A Puzzle game, where you, the player is a mentaly ill person and you need to solve puzzles in order to get your medication and prevent yourself from dying.
 					</p>
-					<p>home of (23-29)</p>
+                    <br>
+					<p>
+                        This game was a first year project I made with some classmates, and it was my first experience with game design and sound design. 
+					</p>
+                    <br>
+					<p>“This feeling will pass. The fear is real but the danger is not.” ― Cammie McGovern</p>
 				</div>
 			</div>
 			<div class="right column">
@@ -113,44 +118,6 @@
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-    <script>
-        // smooth scroll 
-        const scroll = new LocomotiveScroll({
-            el: document.querySelector('#js-scroll'),
-            smooth: true,
-            smoothMobile: true,
-            inertia: 0.75
-        });
-
-        // project title animation 
-        var textWrapper = document.querySelector('.anime-js-title');
-        textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
-
-        anime.timeline()
-            .add({
-                targets: '.anime-js-title .letter',
-                translateY: [60, 0],
-                translateZ: 0,
-                opacity: [0, 1],
-                easing: "easeOutExpo",
-                duration: 1200,
-                delay: (el, i) => 600 + 30 * i
-            });
-
-        // project subtitle animation 
-        TweenMax.from(".project__container-subtitle", 2, {
-            y: 10,
-            opacity: 0,
-            ease: Expo.easeInOut
-        });
-
-        // project image fade 
-        TweenMax.from(".project__image-one", 2, {
-            opacity: 0,
-            ease: Expo.easeInOut
-        });
-
-    </script>
 
     <script>
         var cursor = $(".cursor"),
